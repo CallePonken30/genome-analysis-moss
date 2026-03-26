@@ -1,0 +1,11 @@
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.fa
+*.fasta
+*.mmi
+slurm-*
+*.out
+*.err
+*.log
