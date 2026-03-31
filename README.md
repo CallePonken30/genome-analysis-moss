@@ -20,10 +20,13 @@ The aim is to reproduce and understand parts of the published bioinformatics wor
 8. Biological interpretation
 
 ## Repository structure
-- `code/` scripts and commands
-- `docs/` project planning, metadata, and notes
-- `analyses/` analysis-specific outputs and summaries
-- `figures/` plots and images for interpretation and presentation
+
+- `code/` – scripts and commands  
+- `analyses/` – outputs from each analysis step  
+- `data/` – metadata and symbolic links to raw data  
+- `docs/` – project planning and notes  
+- `figures/` – plots and images for interpretation and presentation
 
 ## Notes
-Large raw data files are not stored in this repository.
+Large raw sequencing data files are stored on UPPMAX and accessed via symbolic links.  
+Only scripts, metadata, and summary results are stored in this repository.
