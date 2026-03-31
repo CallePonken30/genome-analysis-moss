@@ -37,7 +37,7 @@ The project will use several sequencing data types:
 - Nanopore long-read sequencing data for primary genome assembly
 - Illumina short-read sequencing data for assembly polishing
 - RNA-seq data for differential gene expression analysis
-- Possibly Hi-C data for chromosome-level scaffolding
+- Hi-C data for chromosome-level scaffolding
 
 ---
 
