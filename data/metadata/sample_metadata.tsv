@@ -1,0 +1,2 @@
+sample_id	read1	read2	data_type	layout	source
+CRR809859	data/raw_data/illumina/CRR809859_f1.fq.gz	data/raw_data/illumina/CRR809859_r2.fq.gz	WGS	paired-end	Zhou_2023
