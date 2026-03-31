@@ -1,2 +1,5 @@
-sample_id	read1	read2	data_type	layout	source
-CRR809859	data/raw_data/illumina/CRR809859_f1.fq.gz	data/raw_data/illumina/CRR809859_r2.fq.gz	WGS	paired-end	Zhou_2023
+sample_id	read1	read2	data_type	layout	technology	subset	source
+CRR809859	data/raw_data/whole_genome/illumina/CRR809859_f1.fq.gz	data/raw_data/whole_genome/illumina/CRR809859_r2.fq.gz	WGS	paired-end	Illumina	whole_genome	Zhou_2023
+chr3_illumina	data/raw_data/chr3/illumina/chr3_illumina_R1.fastq.gz	data/raw_data/chr3/illumina/chr3_illumina_R2.fastq.gz	genomic_subset	paired-end	Illumina	chr3	Zhou_2023
+chr3_hic	data/raw_data/chr3/hic/chr3_hiC_R1.fastq.gz	data/raw_data/chr3/hic/chr3_hiC_R2.fastq.gz	Hi-C	paired-end	Illumina	chr3	Zhou_2023
+chr3_nanopore	data/raw_data/chr3/nanopore/chr3_clean_nanopore.fq.gz	NA	long_read	single-end	Nanopore	chr3	Zhou_2023
