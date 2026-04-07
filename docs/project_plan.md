@@ -1,16 +1,15 @@
 # Project plan – Genome Analysis (Paper 2)
 
 ## Project overview
-This project aims to reproduce and understand key parts of the bioinformatics analyses presented in the paper:
+This project wants to reproduce and understand the bioinformatics analyses presented in the paper:
 
 Zhou et al. (2023) – Chromosome-level genome assembly of *Niphotrichum japonicum* provides new insights into heat stress responses in mosses.
 
 The focus of the project is to reconstruct the genome assembly workflow, evaluate genome quality, perform genome annotation, and analyse gene expression under heat stress conditions.
 
----
 
 ## Goals
-The main goals of the project are:
+My main goals of the project are:
 
 - Learn how genome assembly workflows are performed in practice
 - Evaluate the quality and completeness of a genome assembly
@@ -19,20 +18,18 @@ The main goals of the project are:
 - Interpret biological results in an evolutionary and ecological context
 - Develop skills in reproducible bioinformatics using GitHub and UPPMAX
 
----
 
 ## Type of samples
 The study organism is the moss *Niphotrichum japonicum*.
 
-Samples include:
+Samples used:
 
 - DNA sequencing reads used for genome assembly
 - RNA-seq reads collected from moss exposed to heat stress and control conditions
 
----
 
 ## Type of data
-The project will use several sequencing data types:
+The project will use:
 
 - Nanopore long-read sequencing data for primary genome assembly
 - Illumina short-read sequencing data for assembly polishing
@@ -48,10 +45,10 @@ The planned workflow includes:
    Software: FastQC  
 
 2. Read trimming and filtering  
-   Software: Trimmomatic or similar  
+   Software: Trimmomatic
 
 3. Genome assembly of long reads  
-   Software: Flye or Canu  
+   Software: Flye
 
 4. Assembly polishing with short reads  
    Software: Pilon  
@@ -63,7 +60,7 @@ The planned workflow includes:
    Software: BRAKER / AUGUSTUS  
 
 7. Functional annotation  
-   Software: InterProScan or similar  
+   Software: InterProScan 
 
 8. RNA-seq mapping  
    Software: HISAT2 or STAR  
@@ -74,7 +71,7 @@ The planned workflow includes:
 ---
 
 ## Time frame and checkpoints
-The project will follow the course timeline:
+The project will try to follow the timeline:
 
 - Early April: repository setup and project planning
 - Mid April: genome assembly and polishing
@@ -89,7 +86,6 @@ Important checkpoints include:
 - Annotation files generated
 - Differential expression results produced
 
----
 
 ## Plan for long running analyses
 Genome assembly and RNA-seq mapping may require significant computational time.
@@ -101,7 +97,6 @@ To manage this:
 - Log files will be stored for troubleshooting
 - Intermediate outputs will be organised in analysis-specific folders
 
----
 
 ## Data management plan
 Raw sequencing data will remain stored in the shared project directory on UPPMAX.
@@ -118,7 +113,6 @@ The GitHub repository will contain:
 - summary outputs
 - figures
 
----
 
 ## Expected results
 It is expected that:
@@ -128,7 +122,6 @@ It is expected that:
 - a subset of genes will show differential expression under heat stress
 - results will be broadly consistent with the conclusions of the original paper, although minor differences may occur due to methodological choices
 
----
 
 ## Potential challenges
 Possible challenges include:
