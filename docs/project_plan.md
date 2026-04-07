@@ -4,25 +4,21 @@
 This project wants to reproduce and understand the bioinformatics analyses presented in the paper:
 
 Zhou et al. (2023) – Chromosome-level genome assembly of *Niphotrichum japonicum* provides new insights into heat stress responses in mosses.
-
-The focus of the project is to reconstruct the genome assembly workflow, evaluate genome quality, perform genome annotation, and analyse gene expression under heat stress conditions.
+I will try to reconstruct the genome assembly workflow, evaluate genome quality, perform genome annotation, and analyse gene expression under heat stress conditions.
 
 
 ## Goals
 My main goals of the project are:
 
-- Learn how genome assembly workflows are performed in practice
+- Learning how genome assembly workflows are performed in practice
 - Evaluate the quality and completeness of a genome assembly
 - Perform structural and functional genome annotation
 - Analyse RNA-seq data to identify genes responding to heat stress
 - Interpret biological results in an evolutionary and ecological context
-- Develop skills in reproducible bioinformatics using GitHub and UPPMAX
 
 
 ## Type of samples
-The study organism is the moss *Niphotrichum japonicum*.
-
-Samples used:
+The study organism is the moss *Niphotrichum japonicum*, and the samples used:
 
 - DNA sequencing reads used for genome assembly
 - RNA-seq reads collected from moss exposed to heat stress and control conditions
@@ -36,10 +32,9 @@ The project will use:
 - RNA-seq data for differential gene expression analysis
 - Hi-C data for chromosome-level scaffolding
 
----
 
 ## Planned analyses and software
-The planned workflow includes:
+The planned workflow is:
 
 1. Quality control of sequencing reads  
    Software: FastQC  
@@ -68,7 +63,6 @@ The planned workflow includes:
 9. Differential expression analysis  
    Software: DESeq2  
 
----
 
 ## Time frame and checkpoints
 The project will try to follow the timeline:
@@ -79,7 +73,7 @@ The project will try to follow the timeline:
 - Early May: RNA-seq analysis and biological interpretation
 - Mid May: preparation of presentation and final documentation
 
-Important checkpoints include:
+Important checkpoints are:
 
 - Successful genome assembly
 - Assembly quality metrics obtained
