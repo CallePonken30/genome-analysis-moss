@@ -1,4 +1,4 @@
-# Project plan – Genome Analysis (Paper 2)
+# Project plan: Genome Analysis (Paper 2)
 
 ## Project overview
 This project wants to reproduce and understand the bioinformatics analyses presented in the paper:
