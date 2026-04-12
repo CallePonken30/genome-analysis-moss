@@ -78,3 +78,26 @@ analyses/**/40-polishing/
 ############################
 .DS_Store
 *.tmp
+
+*.zip
+*_fastqc.html
+
+# === BUSCO ===
+analyses/04_evaluation/busco_chr3/**
+!analyses/04_evaluation/busco_chr3/**/short_summary*.txt
+
+# === QUAST ===
+analyses/04_evaluation/quast_chr3_polish/**
+!analyses/04_evaluation/quast_chr3_polish/report.tsv
+
+# === Temporary / logs ===
+*.out
+*.log
+*.checkpoint
+
+# === Large bioinformatics outputs ===
+*.bam
+*.bai
+*.sam
+*.bed.gz
+*.faa

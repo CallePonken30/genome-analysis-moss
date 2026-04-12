@@ -1,0 +1,23 @@
+Assembly	assembly	polished_chr3
+# contigs (>= 0 bp)	48	48
+# contigs (>= 1000 bp)	48	48
+# contigs (>= 5000 bp)	42	42
+# contigs (>= 10000 bp)	40	41
+# contigs (>= 25000 bp)	30	30
+# contigs (>= 50000 bp)	24	24
+Total length (>= 0 bp)	16904946	16927962
+Total length (>= 1000 bp)	16904946	16927962
+Total length (>= 5000 bp)	16884803	16907784
+Total length (>= 10000 bp)	16865179	16898139
+Total length (>= 25000 bp)	16693791	16716487
+Total length (>= 50000 bp)	16478215	16500487
+# contigs	48	48
+Largest contig	3642644	3649745
+Total length	16904946	16927962
+GC (%)	42.04	41.86
+N50	2097893	2101818
+N90	316880	317321
+auN	1940533.6	1944896.6
+L50	3	3
+L90	13	13
+# N's per 100 kbp	0.00	0.00
