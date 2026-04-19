@@ -34,14 +34,15 @@
 *.bwt
 *.pac
 *.sa
+*.ht2
 
 ############################
-# Coverage / intermediate bioinfo
+# Variant / coverage
 ############################
-*.bed
-*.bed.gz
 *.vcf
 *.bcf
+*.bed
+*.bed.gz
 
 ############################
 # Logs & HPC output
@@ -52,7 +53,37 @@ slurm-*
 *.log
 
 ############################
-# Pipeline output folders (IMPORTANT)
+# FastQC / QC outputs
+############################
+*.zip
+*_fastqc.html
+
+############################
+# System / misc
+############################
+.DS_Store
+*.tmp
+*.checkpoint
+
+############################
+# =========================
+# BRAKER / GeneMark (IMPORTANT 🔥)
+# =========================
+analyses/03_annotation/braker_chr3/GeneMark-ET/
+analyses/03_annotation/braker_chr3/errors/
+analyses/03_annotation/braker_chr3/tmp*
+analyses/03_annotation/braker_chr3/*.stdout
+analyses/03_annotation/braker_chr3/*.stderr
+analyses/03_annotation/braker_chr3/run/
+analyses/03_annotation/braker_chr3/info/
+
+############################
+# HISAT2 index
+############################
+analyses/05_expression/hisat2_index/
+
+############################
+# Assembly pipeline outputs
 ############################
 analyses/**/00-assembly/
 analyses/**/10-consensus/
@@ -61,43 +92,21 @@ analyses/**/30-contigger/
 analyses/**/40-polishing/
 
 ############################
-# Large intermediate dumps
+# Evaluation outputs (keep summaries only)
 ############################
-*alignment_dump*
-*repeat_graph_dump*
-
-############################
-# FastQC / QC outputs
-############################
-*.zip
-# optionally:
-# *.html
-
-############################
-# System / misc
-############################
-.DS_Store
-*.tmp
-
-*.zip
-*_fastqc.html
-
-# === BUSCO ===
 analyses/04_evaluation/busco_chr3/**
 !analyses/04_evaluation/busco_chr3/**/short_summary*.txt
 
-# === QUAST ===
 analyses/04_evaluation/quast_chr3_polish/**
 !analyses/04_evaluation/quast_chr3_polish/report.tsv
 
-# === Temporary / logs ===
-*.out
-*.log
-*.checkpoint
+############################
+# Keep important final outputs
+############################
+!analyses/03_annotation/braker_chr3/*.gff3
+!analyses/03_annotation/braker_chr3/braker.log
 
-# === Large bioinformatics outputs ===
-*.bam
-*.bai
-*.sam
-*.bed.gz
+############################
+# Optional (if needed)
+############################
 *.faa
