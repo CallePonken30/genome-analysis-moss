@@ -1,0 +1,125 @@
+
+GetOrganelle v1.7.7.1
+
+get_organelle_from_reads.py assembles organelle genomes from genome skimming data.
+Find updates in https://github.com/Kinggerm/GetOrganelle and see README.md for more information.
+
+Python 3.12.3 (main, Mar 17 2026, 17:56:53) [GCC 13.3.0]
+PLATFORM: Linux p115.uppmax.uu.se 5.14.0-611.41.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Sat Mar 21 12:28:25 UTC 2026 x86_64 x86_64
+PYTHON LIBS: GetOrganelleLib 1.7.7.1; numpy 1.26.4; sympy 1.13.3; scipy 1.13.1; psutil 5.9.8
+DEPENDENCIES: Bowtie2 2.5.4; SPAdes 4.2.0; Blast 2.16.0; Bandage xcb.
+GETORG_PATH=/sw/data/local/GetOrganelleDB/0.0.1/
+SEED  DB: embplant_pt 0.0.1; embplant_mt 0.0.1
+LABEL DB: embplant_pt 0.0.1; embplant_mt 0.0.1
+WORKING_DIR=/gorilla/home/calle30/genome-analysis-moss
+/sw/arch/eb/software/GetOrganelle/1.7.7.1-foss-2024a/bin/get_organelle_from_reads.py -1 data/raw_data/whole_genome/illumina/CRR809859_f1.fq.gz -2 data/raw_data/whole_genome/illumina/CRR809859_r2.fq.gz -o analyses/09_organelle/chloroplast -F embplant_pt -R 15 -k 21,45,65,85,105 -t 8
+
+2026-04-26 19:21:32,992 - INFO: Pre-reading fastq ...
+2026-04-26 19:21:32,992 - INFO: Estimating reads to use ... (to use all reads, set '--reduce-reads-for-coverage inf --max-reads inf')
+2026-04-26 19:21:33,174 - INFO: Tasting 100000+100000 reads ...
+2026-04-26 19:22:49,157 - INFO: Tasting 500000+500000 reads ...
+2026-04-26 19:23:54,544 - INFO: Estimating reads to use finished.
+2026-04-26 19:23:54,548 - INFO: Unzipping reads file: data/raw_data/whole_genome/illumina/CRR809859_f1.fq.gz (28412387293 bytes)
+2026-04-26 19:24:19,729 - INFO: Unzipping reads file: data/raw_data/whole_genome/illumina/CRR809859_r2.fq.gz (29955136131 bytes)
+2026-04-26 19:24:45,529 - INFO: Counting read qualities ...
+2026-04-26 19:24:45,607 - INFO: Identified quality encoding format = Sanger
+2026-04-26 19:24:45,607 - INFO: Phred offset = 33
+2026-04-26 19:24:45,608 - INFO: Trimming bases with qualities (0.00%): 33..33  !
+2026-04-26 19:24:45,635 - INFO: Mean error rate = 0.0044
+2026-04-26 19:24:45,636 - INFO: Counting read lengths ...
+2026-04-26 19:25:06,390 - INFO: Mean = 149.1 bp, maximum = 150 bp.
+2026-04-26 19:25:06,390 - INFO: Reads used = 15000000+15000000
+2026-04-26 19:25:06,390 - INFO: Pre-reading fastq finished.
+
+2026-04-26 19:25:06,390 - INFO: Making seed reads ...
+2026-04-26 19:25:06,395 - INFO: Seed bowtie2 index existed!
+2026-04-26 19:25:06,395 - INFO: Mapping reads to seed bowtie2 index ...
+2026-04-26 19:28:48,515 - INFO: Mapping finished.
+2026-04-26 19:28:48,518 - INFO: Seed reads made: analyses/09_organelle/chloroplast/seed/embplant_pt.initial.fq (29106912 bytes)
+2026-04-26 19:28:48,518 - INFO: Making seed reads finished.
+
+2026-04-26 19:28:48,518 - INFO: Checking seed reads and parameters ...
+2026-04-26 19:28:48,518 - INFO: The automatically-estimated parameter(s) do not ensure the best choice(s).
+2026-04-26 19:28:48,518 - INFO: If the result graph is not a circular organelle genome, 
+2026-04-26 19:28:48,518 - INFO:   you could adjust the value(s) of '-w'/'-R' for another new run.
+2026-04-26 19:28:51,417 - INFO: Pre-assembling mapped reads ...
+2026-04-26 19:29:47,247 - INFO: Pre-assembling mapped reads finished.
+2026-04-26 19:29:47,248 - INFO: Estimated embplant_pt-hitting base-coverage = 342.85
+2026-04-26 19:29:47,493 - INFO: Estimated word size(s): 111
+2026-04-26 19:29:47,493 - INFO: Setting '-w 111'
+2026-04-26 19:29:47,493 - INFO: Setting '--max-extending-len inf'
+2026-04-26 19:29:47,575 - INFO: Checking seed reads and parameters finished.
+
+2026-04-26 19:29:47,576 - INFO: Making read index ...
+2026-04-26 19:32:15,947 - INFO: Mem 5.268 G, 27507347 candidates in all 30000000 reads
+2026-04-26 19:32:15,949 - INFO: Pre-grouping reads ...
+2026-04-26 19:32:15,949 - INFO: Setting '--pre-w 111'
+2026-04-26 19:32:17,280 - INFO: Mem 5.039 G, 200000/1831928 used/duplicated
+2026-04-26 19:32:31,006 - INFO: Mem 7.354 G, 5046 groups made.
+2026-04-26 19:32:33,064 - INFO: Making read index finished.
+
+2026-04-26 19:32:33,064 - INFO: Extending ...
+2026-04-26 19:32:33,064 - INFO: Adding initial words ...
+2026-04-26 19:32:34,432 - INFO: AW 890002
+2026-04-26 19:34:25,031 - INFO: Round 1: 27507347/27507347 AI 273175 AW 2195124 Mem 3.839
+2026-04-26 19:36:08,189 - INFO: Round 2: 27507347/27507347 AI 296272 AW 2418504 Mem 3.839
+2026-04-26 19:37:47,781 - INFO: Round 3: 27507347/27507347 AI 299430 AW 2449460 Mem 3.839
+2026-04-26 19:39:31,746 - INFO: Round 4: 27507347/27507347 AI 299717 AW 2455396 Mem 3.839
+2026-04-26 19:41:19,471 - INFO: Round 5: 27507347/27507347 AI 300664 AW 2463414 Mem 3.839
+2026-04-26 19:43:07,953 - INFO: Round 6: 27507347/27507347 AI 301717 AW 2473760 Mem 3.839
+2026-04-26 19:44:57,935 - INFO: Round 7: 27507347/27507347 AI 303511 AW 2488112 Mem 3.839
+2026-04-26 19:46:44,263 - INFO: Round 8: 27507347/27507347 AI 305182 AW 2499540 Mem 3.839
+2026-04-26 19:48:27,423 - INFO: Round 9: 27507347/27507347 AI 306675 AW 2513296 Mem 3.839
+2026-04-26 19:50:10,020 - INFO: Round 10: 27507347/27507347 AI 308048 AW 2525280 Mem 3.901
+2026-04-26 19:51:53,364 - INFO: Round 11: 27507347/27507347 AI 309375 AW 2537324 Mem 3.901
+2026-04-26 19:53:37,439 - INFO: Round 12: 27507347/27507347 AI 310928 AW 2548878 Mem 3.901
+2026-04-26 19:55:21,384 - INFO: Round 13: 27507347/27507347 AI 311996 AW 2557520 Mem 3.901
+2026-04-26 19:57:08,237 - INFO: Round 14: 27507347/27507347 AI 313264 AW 2569570 Mem 3.901
+2026-04-26 19:58:55,005 - INFO: Round 15: 27507347/27507347 AI 314819 AW 2582838 Mem 3.901
+2026-04-26 19:58:55,008 - INFO: Hit the round limit 15 and terminated ...
+2026-04-26 19:59:21,970 - INFO: Extending finished.
+
+2026-04-26 19:59:21,970 - INFO: Separating extended fastq file ... 
+2026-04-26 19:59:23,482 - INFO: Setting '-k 21,45,65,85,105'
+2026-04-26 19:59:23,482 - INFO: Assembling using SPAdes ...
+2026-04-26 19:59:23,522 - INFO: spades.py -t 8  --phred-offset 33 -1 analyses/09_organelle/chloroplast/extended_1_paired.fq -2 analyses/09_organelle/chloroplast/extended_2_paired.fq --s1 analyses/09_organelle/chloroplast/extended_1_unpaired.fq --s2 analyses/09_organelle/chloroplast/extended_2_unpaired.fq -k 21,45,65,85,105 -o analyses/09_organelle/chloroplast/extended_spades
+2026-04-26 20:10:00,268 - INFO: Insert size = 324.105, deviation = 78.4151, left quantile = 223, right quantile = 426
+2026-04-26 20:10:00,270 - INFO: Assembling finished.
+
+2026-04-26 20:11:44,168 - INFO: Slimming analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg finished!
+2026-04-26 20:11:44,171 - INFO: Slimming assembly graphs finished.
+
+2026-04-26 20:11:44,171 - INFO: Extracting embplant_pt from the assemblies ...
+2026-04-26 20:11:44,172 - INFO: Disentangling analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a circular genome ... 
+2026-04-26 20:11:44,178 - INFO: Disentangling unsuccessful: 'Incomplete/Complicated graph: please check around EDGE_3049!'
+2026-04-26 20:11:44,178 - INFO: Scaffolding disconnected contigs using SPAdes scaffolds ... 
+2026-04-26 20:11:44,178 - WARNING: Assembly based on scaffolding may not be as accurate as the ones directly exported from the assembly graph.
+2026-04-26 20:11:44,178 - INFO: Disentangling analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a circular genome ... 
+2026-04-26 20:11:44,181 - INFO: Disentangling unsuccessful: 'No new connections.'
+2026-04-26 20:11:44,256 - INFO: Disentangling analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg as a/an embplant_pt-insufficient graph ... 
+2026-04-26 20:11:45,059 - INFO: Vertex_2951 #copy = 2
+2026-04-26 20:11:45,059 - INFO: Vertex_3049 #copy = 1
+2026-04-26 20:11:45,059 - INFO: Vertex_3051 #copy = 1
+2026-04-26 20:11:45,059 - INFO: Vertex_3059 #copy = 1
+2026-04-26 20:11:45,059 - INFO: Average embplant_pt kmer-coverage = 154.7
+2026-04-26 20:11:45,059 - INFO: Average embplant_pt base-coverage = 511.5
+2026-04-26 20:11:45,059 - INFO: Writing output ...
+2026-04-26 20:11:45,093 - WARNING: More than one structure (gene order) produced ...
+2026-04-26 20:11:45,093 - WARNING: Please check the final result to confirm whether they are simply different in SSC direction (two flip-flop configurations)!
+2026-04-26 20:11:45,094 - INFO: Writing PATH1 of embplant_pt scaffold(s) to analyses/09_organelle/chloroplast/embplant_pt.K105.scaffolds.graph1.1.path_sequence.fasta
+2026-04-26 20:11:45,099 - INFO: Writing PATH2 of embplant_pt scaffold(s) to analyses/09_organelle/chloroplast/embplant_pt.K105.scaffolds.graph1.2.path_sequence.fasta
+2026-04-26 20:11:45,100 - INFO: Writing GRAPH to analyses/09_organelle/chloroplast/embplant_pt.K105.contigs.graph1.selected_graph.gfa
+2026-04-26 20:11:45,100 - INFO: Result status of embplant_pt: 1 scaffold(s)
+2026-04-26 20:11:45,197 - INFO: Writing output finished.
+2026-04-26 20:11:45,197 - INFO: Please ...
+2026-04-26 20:11:45,197 - INFO: load the graph file 'assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg' in K105
+2026-04-26 20:11:45,197 - INFO: load the CSV file 'assembly_graph.fastg.extend-embplant_pt-embplant_mt.csv' in K105
+2026-04-26 20:11:45,197 - INFO: visualize and confirm the incomplete result in Bandage.
+2026-04-26 20:11:45,197 - INFO: If the result is nearly complete, 
+2026-04-26 20:11:45,197 - INFO: you can also adjust the arguments according to https://github.com/Kinggerm/GetOrganelle/wiki/FAQ#what-should-i-do-with-incomplete-resultbroken-assembly-graph
+2026-04-26 20:11:45,197 - INFO: If you have questions for us, please provide us with the get_org.log.txt file and the post-slimming graph in the format you like!
+2026-04-26 20:11:45,197 - INFO: Extracting embplant_pt from the assemblies finished.
+
+
+Total cost 3084.97 s
+Thank you!

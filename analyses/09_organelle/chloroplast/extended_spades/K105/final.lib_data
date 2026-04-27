@@ -1,0 +1,210 @@
+Ìi---
+max read length: 150
+nomerge max read length: 150
+average read length: 149.797
+average coverage: 139.33
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/extended_1_paired00.0_0.cor.fastq.gz'
+    right reads:
+      - '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/extended_2_paired00.0_0.cor.fastq.gz'
+    single reads:
+      - '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/extended__unpaired00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 324.105
+      insert size deviation: 78.4151
+      insert size left quantile: 223
+      insert size right quantile: 426
+      insert size median: 322
+      insert size mad: 53
+      insert size distribution: { 143: 51, 144: 69, 145: 65, 146: 55, 147: 72, 
+                                  148: 70, 149: 64, 150: 80, 151: 93, 152: 58, 
+                                  153: 91, 154: 102, 155: 102, 156: 91, 
+                                  157: 74, 158: 88, 159: 105, 160: 103, 
+                                  161: 109, 162: 101, 163: 103, 164: 84, 
+                                  165: 105, 166: 107, 167: 132, 168: 116, 
+                                  169: 136, 170: 119, 171: 114, 172: 121, 
+                                  173: 124, 174: 89, 175: 132, 176: 140, 
+                                  177: 134, 178: 138, 179: 125, 180: 134, 
+                                  181: 154, 182: 137, 183: 165, 184: 150, 
+                                  185: 149, 186: 143, 187: 188, 188: 153, 
+                                  189: 161, 190: 206, 191: 174, 192: 189, 
+                                  193: 173, 194: 176, 195: 199, 196: 209, 
+                                  197: 216, 198: 197, 199: 198, 200: 202, 
+                                  201: 217, 202: 228, 203: 205, 204: 212, 
+                                  205: 225, 206: 244, 207: 240, 208: 206, 
+                                  209: 220, 210: 249, 211: 264, 212: 238, 
+                                  213: 241, 214: 284, 215: 289, 216: 262, 
+                                  217: 253, 218: 268, 219: 262, 220: 240, 
+                                  221: 296, 222: 248, 223: 265, 224: 316, 
+                                  225: 327, 226: 288, 227: 332, 228: 323, 
+                                  229: 305, 230: 330, 231: 337, 232: 334, 
+                                  233: 363, 234: 352, 235: 346, 236: 352, 
+                                  237: 365, 238: 349, 239: 359, 240: 409, 
+                                  241: 382, 242: 386, 243: 377, 244: 381, 
+                                  245: 393, 246: 388, 247: 418, 248: 376, 
+                                  249: 427, 250: 436, 251: 458, 252: 497, 
+                                  253: 459, 254: 456, 255: 468, 256: 496, 
+                                  257: 424, 258: 441, 259: 462, 260: 485, 
+                                  261: 519, 262: 510, 263: 483, 264: 492, 
+                                  265: 545, 266: 517, 267: 524, 268: 517, 
+                                  269: 503, 270: 500, 271: 500, 272: 575, 
+                                  273: 584, 274: 521, 275: 502, 276: 563, 
+                                  277: 552, 278: 552, 279: 542, 280: 598, 
+                                  281: 512, 282: 548, 283: 524, 284: 660, 
+                                  285: 593, 286: 577, 287: 548, 288: 654, 
+                                  289: 586, 290: 602, 291: 591, 292: 595, 
+                                  293: 624, 294: 667, 295: 655, 296: 681, 
+                                  297: 591, 298: 653, 299: 691, 300: 677, 
+                                  301: 669, 302: 636, 303: 688, 304: 665, 
+                                  305: 652, 306: 678, 307: 678, 308: 698, 
+                                  309: 649, 310: 653, 311: 666, 312: 651, 
+                                  313: 693, 314: 675, 315: 699, 316: 654, 
+                                  317: 723, 318: 699, 319: 693, 320: 704, 
+                                  321: 700, 322: 660, 323: 669, 324: 675, 
+                                  325: 671, 326: 662, 327: 631, 328: 680, 
+                                  329: 688, 330: 681, 331: 663, 332: 672, 
+                                  333: 637, 334: 667, 335: 667, 336: 648, 
+                                  337: 660, 338: 668, 339: 639, 340: 606, 
+                                  341: 615, 342: 618, 343: 641, 344: 633, 
+                                  345: 637, 346: 598, 347: 652, 348: 581, 
+                                  349: 582, 350: 613, 351: 626, 352: 593, 
+                                  353: 628, 354: 575, 355: 565, 356: 588, 
+                                  357: 599, 358: 576, 359: 558, 360: 614, 
+                                  361: 558, 362: 539, 363: 563, 364: 558, 
+                                  365: 567, 366: 538, 367: 605, 368: 530, 
+                                  369: 527, 370: 549, 371: 522, 372: 546, 
+                                  373: 509, 374: 496, 375: 515, 376: 482, 
+                                  377: 478, 378: 489, 379: 499, 380: 463, 
+                                  381: 432, 382: 461, 383: 439, 384: 474, 
+                                  385: 481, 386: 434, 387: 450, 388: 462, 
+                                  389: 471, 390: 398, 391: 433, 392: 453, 
+                                  393: 411, 394: 411, 395: 367, 396: 394, 
+                                  397: 414, 398: 374, 399: 363, 400: 393, 
+                                  401: 408, 402: 375, 403: 372, 404: 350, 
+                                  405: 333, 406: 357, 407: 375, 408: 318, 
+                                  409: 316, 410: 374, 411: 328, 412: 343, 
+                                  413: 360, 414: 328, 415: 275, 416: 278, 
+                                  417: 279, 418: 277, 419: 287, 420: 281, 
+                                  421: 321, 422: 300, 423: 310, 424: 274, 
+                                  425: 262, 426: 254, 427: 286, 428: 275, 
+                                  429: 253, 430: 229, 431: 220, 432: 228, 
+                                  433: 212, 434: 258, 435: 212, 436: 206, 
+                                  437: 204, 438: 196, 439: 206, 440: 232, 
+                                  441: 209, 442: 194, 443: 219, 444: 168, 
+                                  445: 183, 446: 195, 447: 168, 448: 186, 
+                                  449: 170, 450: 173, 451: 173, 452: 156, 
+                                  453: 196, 454: 151, 455: 151, 456: 168, 
+                                  457: 146, 458: 143, 459: 148, 460: 148, 
+                                  461: 153, 462: 149, 463: 140, 464: 138, 
+                                  465: 116, 466: 130, 467: 128, 468: 122, 
+                                  469: 114, 470: 104, 471: 111, 472: 110, 
+                                  473: 108, 474: 96, 475: 126, 476: 96, 
+                                  477: 107, 478: 115, 479: 89, 480: 96, 
+                                  481: 104, 482: 90, 483: 76, 484: 74, 
+                                  485: 70, 486: 74, 487: 99, 488: 61, 489: 91, 
+                                  490: 81, 491: 70, 492: 61, 493: 79, 494: 56, 
+                                  495: 57, 496: 77, 497: 58, 498: 53, 499: 51, 
+                                  500: 51, 501: 66, 502: 68, 503: 55, 504: 54, 
+                                  505: 56, 506: 59, 507: 60, 508: 53, 509: 48, 
+                                  510: 55, 511: 47, 512: 48, 513: 49, 514: 38, 
+                                  515: 31, 516: 37, 517: 24, 518: 34, 519: 34, 
+                                  520: 41, 521: 31, 522: 46, 523: 34, 524: 27, 
+                                  525: 26, 526: 34, 527: 40, 528: 33, 529: 33, 
+                                  530: 29, 531: 19, 532: 29, 533: 20, 534: 22, 
+                                  535: 34, 536: 23, 537: 28, 538: 16, 539: 28, 
+                                  540: 26, 541: 32, 542: 15, 543: 26, 544: 28, 
+                                  545: 20, 546: 18, 547: 15, 548: 13, 549: 18, 
+                                  550: 20, 551: 12, 552: 12, 553: 11, 554: 23, 
+                                  555: 12, 556: 19, 557: 13, 558: 17, 559: 10, 
+                                  560: 13, 561: 16, 562: 15, 563: 5, 564: 10, 
+                                  565: 12, 566: 9, 567: 11, 568: 10, 569: 10, 
+                                  570: 16, 571: 11, 572: 11, 573: 6, 574: 6, 
+                                  575: 8, 576: 2, 577: 8, 578: 12, 579: 9, 
+                                  580: 8, 581: 2, 582: 2, 583: 6, 584: 3, 
+                                  585: 3, 586: 8, 587: 4, 588: 5, 589: 5, 
+                                  590: 4, 591: 2, 592: 2, 593: 1, 594: 6, 
+                                  595: 7, 596: 1, 597: 7, 599: 5, 600: 2, 
+                                  601: 1, 602: 3, 603: 3, 604: 1, 605: 2, 
+                                  606: 2, 608: 5, 609: 2, 610: 2, 612: 2, 
+                                  613: 2, 614: 1, 617: 3, 618: 2, 619: 1, 
+                                  620: 2, 621: 2, 622: 2, 623: 2, 624: 3, 
+                                  625: 6, 626: 2, 627: 1, 628: 3, 630: 3, 
+                                  631: 4, 632: 1, 633: 1, 634: 2, 635: 3, 
+                                  636: 2, 637: 1, 638: 1, 639: 2, 640: 2, 
+                                  641: 1, 642: 1, 644: 1, 645: 3, 647: 2, 
+                                  648: 1, 650: 1, 653: 1, 654: 2, 655: 1, 
+                                  656: 2, 658: 1, 663: 1, 664: 1, 666: 1, 
+                                  669: 1, 671: 1, 675: 1, 685: 1, 687: 1, 
+                                  691: 1, 693: 1, 697: 1, 703: 2, 711: 1, 
+                                  712: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/INFO_0'
+        paired read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/paired_0'
+        merged read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/merged_0'
+        single read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/single_0'
+        chunk num:       8
+      single reads mapped: false
+      library index:   0
+      number of reads: 393602
+      total nucleotides: 58968360
+  - type:            single
+    number:          1
+    single reads:
+      - '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/extended_1_unpaired00.1_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/INFO_1'
+        paired read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/paired_1'
+        merged read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/merged_1'
+        single read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/single_1'
+        chunk num:       8
+      single reads mapped: true
+      library index:   1
+      number of reads: 37983
+      total nucleotides: 5686142
+  - type:            single
+    number:          2
+    single reads:
+      - '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/extended_2_unpaired00.2_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/INFO_2'
+        paired read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/paired_2'
+        merged read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/merged_2'
+        single read prefix: '/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/.bin_reads/single_2'
+        chunk num:       8
+      single reads mapped: true
+      library index:   2
+      number of reads: 23223
+      total nucleotides: 3474253
+...

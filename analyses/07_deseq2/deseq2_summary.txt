@@ -1,2 +1,2 @@
-Total genes after filtering: 669 
-Significant genes (padj < 0.05): 220 
+Total genes after filtering: 2063 
+Significant genes (padj < 0.05): 609 

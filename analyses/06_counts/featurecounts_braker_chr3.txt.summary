@@ -1,0 +1,15 @@
+Status	analyses/05_expression/mapping/control/Control_1.sorted.bam	analyses/05_expression/mapping/control/Control_2.sorted.bam	analyses/05_expression/mapping/control/Control_3.sorted.bam	analyses/05_expression/mapping/heat_treated/Heat_1.sorted.bam	analyses/05_expression/mapping/heat_treated/Heat_2.sorted.bam	analyses/05_expression/mapping/heat_treated/Heat_3.sorted.bam
+Assigned	3210494	2884598	3058650	3018727	2946542	3281989
+Unassigned_Unmapped	39292367	40244654	41923421	40569844	39490489	40282639
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	833342	615105	759886	863019	739166	697544
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	500731	544109	503151	519791	478029	559001
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	59630	53817	63668	64313	61310	62812

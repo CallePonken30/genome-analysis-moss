@@ -1,7 +1,7 @@
 library(DESeq2)
 
 counts <- read.table(
-  "analyses/06_counts/featurecounts_chr3.txt",
+  "analyses/06_counts/featurecounts_braker_chr3.txt",
   header = TRUE,
   sep = "\t",
   comment.char = "#",

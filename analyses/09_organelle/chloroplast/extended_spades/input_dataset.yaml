@@ -1,0 +1,15 @@
+- "left reads":
+  - "/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_1_paired.fq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_2_paired.fq"
+  "type": "paired-end"
+- "number": !!int "1"
+  "single reads":
+  - "/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_1_unpaired.fq"
+  "type": "single"
+- "number": !!int "2"
+  "single reads":
+  - "/gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_2_unpaired.fq"
+  "type": "single"

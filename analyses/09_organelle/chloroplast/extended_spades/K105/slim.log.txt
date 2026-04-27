@@ -1,0 +1,20 @@
+2026-04-26 20:11:09,634 - INFO: Slimming file 1/1: analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg
+2026-04-26 20:11:09,637 - INFO: Parsing input finished.
+2026-04-26 20:11:09,639 - INFO: Preparing fasta file finished.
+2026-04-26 20:11:09,639 - INFO: Executing BLAST to /sw/data/local/GetOrganelleDB/0.0.1/LabelDatabase/embplant_pt ...
+2026-04-26 20:11:09,639 - INFO: Executing BLAST ...
+2026-04-26 20:11:27,041 - INFO: Executing BLAST finished.
+2026-04-26 20:11:27,041 - INFO: Executing BLAST to /sw/data/local/GetOrganelleDB/0.0.1/LabelDatabase/embplant_pt finished.
+2026-04-26 20:11:27,042 - INFO: Parsing blast result finished.
+2026-04-26 20:11:27,042 - INFO: Executing BLAST to /sw/data/local/GetOrganelleDB/0.0.1/LabelDatabase/embplant_mt ...
+2026-04-26 20:11:27,042 - INFO: Executing BLAST ...
+2026-04-26 20:11:44,086 - INFO: Executing BLAST finished.
+2026-04-26 20:11:44,086 - INFO: Executing BLAST to /sw/data/local/GetOrganelleDB/0.0.1/LabelDatabase/embplant_mt finished.
+2026-04-26 20:11:44,087 - INFO: Parsing blast result finished.
+2026-04-26 20:11:44,087 - INFO: No enough coverage information found.
+2026-04-26 20:11:44,087 - INFO: Mapping names ...
+2026-04-26 20:11:44,088 - INFO: Mapping names finished.
+2026-04-26 20:11:44,088 - INFO: Generating slimmed file to /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg.extend-embplant_pt-embplant_mt.fastg
+2026-04-26 20:11:44,094 - INFO: Generating notation table to /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg.extend-embplant_pt-embplant_mt.csv
+2026-04-26 20:11:44,094 - INFO: Slimming file 1/1: analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg finished!
+

@@ -1,0 +1,184 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_Y2C8OL5ORPV9F48I6XMDA4XYJTWN1JYG
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_KSDZY45BALMFHFJD18YWH6OHJGCGMHFT
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_ltxwcj4j
+  job_uuid: SPAdes_Read_error_correction_273I20B5JV11ATFG79TXRKFCDYF4WFAF
+  mpi_support: false
+  output_files:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/corrected.yaml
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/share/spades
+  - --max_threads
+  - '8'
+  - --output_dir
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_corrected_reads_compression_6U4S2SA6H717G4629BVTJFXJO0SFGHWS
+  mpi_support: false
+  output_files: []
+  path: /sw/arch/eb/software/Python/3.12.3-GCCcore-13.3.0/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_CTRNXTL1AV318POR9U1HOIR43GY8GL5M
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_69BEXKZN7NTZUU220S22RVIT6OJVPX5M
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K21/configs/config.info
+  config_dir: K21
+  del_after: []
+  job_uuid: hpcSPAdes_K21_MBTQT7X3L9AAWCU4QGS73H68BBX3MI1R
+  mpi_support: true
+  output_files: []
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/{spades_core}
+  short_name: k21
+- STAGE: K45
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K45/configs/config.info
+  config_dir: K45
+  del_after: []
+  job_uuid: hpcSPAdes_K45_KR7SY205R2D57K92MOH24LEVB3A17D6E
+  mpi_support: true
+  output_files: []
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/{spades_core}
+  short_name: k45
+- STAGE: K65
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K65/configs/config.info
+  config_dir: K65
+  del_after: []
+  job_uuid: hpcSPAdes_K65_U5OHD4WL2S8DX1G5X0L1ZKUZ0UZFLNHI
+  mpi_support: true
+  output_files: []
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/{spades_core}
+  short_name: k65
+- STAGE: K85
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K85/configs/config.info
+  config_dir: K85
+  del_after: []
+  job_uuid: hpcSPAdes_K85_LEKMBIU72NGFX4JNJAFZP309HJLK02YB
+  mpi_support: true
+  output_files: []
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/{spades_core}
+  short_name: k85
+- STAGE: K105
+  args:
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/configs/config.info
+  config_dir: K105
+  del_after: []
+  job_uuid: hpcSPAdes_K105_D68I4EM1M6NMSA7MTIZQKFBUQK8O82YZ
+  mpi_support: true
+  output_files: []
+  path: /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/bin/{spades_core}
+  short_name: k105
+- STAGE: Copy files
+  args:
+  - /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/share/spades/spades_pipeline/scripts/copy_files.py
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/before_rr.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/before_rr.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph_after_simplification.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/assembly_graph_after_simplification.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/final_contigs.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/contigs.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/first_pe_contigs.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/first_pe_contigs.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/strain_graph.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/strain_graph.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/scaffolds.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/scaffolds.fasta
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/scaffolds.paths
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/scaffolds.paths
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph_with_scaffolds.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/assembly_graph_with_scaffolds.gfa
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/assembly_graph.fastg
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/assembly_graph.fastg
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/K105/final_contigs.paths
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_aucj2whn
+  job_uuid: SPAdes_Copy_files_ID6HYG8TJPJG5FTV07VLFUEEHY09IHW6
+  mpi_support: false
+  output_files: []
+  path: /sw/arch/eb/software/Python/3.12.3-GCCcore-13.3.0/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_0J8JOGE7IR3784F8LC7LJH94GAQRLHSE
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /sw/arch/eb/software/SPAdes/4.2.0-GCC-13.3.0/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/scaffolds.fasta
+  - --misc_dir
+  - /gorilla/home/calle30/genome-analysis-moss/analyses/09_organelle/chloroplast/extended_spades/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_MKXKM5GOKD4RXHYWMMV062VV0JUMG037
+  mpi_support: false
+  output_files: []
+  path: /sw/arch/eb/software/Python/3.12.3-GCCcore-13.3.0/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_HKK50ZGRBDTX2ZW8KUZR38L35GG8O20J
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

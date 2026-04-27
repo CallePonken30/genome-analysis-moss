@@ -1,0 +1,1858 @@
+# This output was generated with AUGUSTUS (version 3.5.0).
+# AUGUSTUS is a gene prediction tool written by M. Stanke (mario.stanke@uni-greifswald.de),
+# O. Keller, S. König, L. Gerischer, L. Romoth, Katharina Hoff, Henry Mehlan and Daniel Honsel.
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Sources of extrinsic information: M RM 
+# Initializing the parameters using config directory /opt/Augustus/config/ ...
+# calle_chr3 version. Using default transition matrix.
+# admissible start codons and their probabilities: ATG(1), CTG(0), TTG(0)
+# Looks like tmp_opt_calle_chr3/bucket8.gb is in genbank format. Augustus uses the annotation for evaluation of accuracy.
+# Read in 37 genbank sequences.
+#
+# ----- sequence number 1 (length = 3644, name = contig_103_pilon_262308-265951) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_262308-265951 length=3644
+contig_103_pilon_262308-265951	database	stop_codon	624	626	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	741	879	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	969	1137	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	1227	1385	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	1427	1687	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	1724	1846	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	1940	2201	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	2296	2392	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	2458	2640	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	2714	2818	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	2912	3176	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	intron	3267	3389	.	-	.	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	624	740	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	880	968	.	-	2	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	1138	1226	.	-	1	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	1386	1426	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	1688	1723	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	1847	1939	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	2202	2295	.	-	1	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	2393	2457	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	2641	2713	.	-	1	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	2819	2911	.	-	1	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	3177	3266	.	-	1	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	CDS	3390	3436	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+contig_103_pilon_262308-265951	database	start_codon	3434	3436	.	-	0	transcript_id "59_t.1"; gene_id "59_t";
+# Predicted genes for sequence number 1 on both strands
+# start gene g1
+contig_103_pilon_262308-265951	AUGUSTUS	gene	1	3436	0.26	-	.	g1
+contig_103_pilon_262308-265951	AUGUSTUS	transcript	1	3436	0.26	-	.	g1.t1
+contig_103_pilon_262308-265951	AUGUSTUS	intron	1	700	0.67	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	741	879	0.83	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	969	1137	1	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	1227	1385	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	1427	2201	0.38	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	2296	2392	0.95	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	2458	2640	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	2714	2818	0.99	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	2912	3176	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	intron	3267	3389	0.97	-	.	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	701	740	0.71	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	880	968	1	-	2	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	1138	1226	1	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	1386	1426	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	2202	2295	0.94	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	2393	2457	0.95	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	2641	2713	0.97	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	2819	2911	0.98	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	3177	3266	0.98	-	1	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	CDS	3390	3436	0.98	-	0	transcript_id "g1.t1"; gene_id "g1";
+contig_103_pilon_262308-265951	AUGUSTUS	start_codon	3434	3436	.	-	0	transcript_id "g1.t1"; gene_id "g1";
+# protein sequence = [MATTEKEVAAGRTKVGWIGTGVMGQAMCGHILDAGFSVTVFNRTASKAEGLCKKGAVMADSPSAVAEKSDVVFTIVGY
+# PADVREVVLGEKGILKGLRPGGIVVDMTTSEPSLAREIFAVAQEKGCDAVDAPVSGGDKGAKAGALAIMAGGQQDTGMLYAHKAGLDVTTYLQAIAGG
+# AAGSKSLELYAGRIQSRDFAPGFYVNHFVKDLGIALEECKQMGLGLPGLALAQQLYVSLKAHDD]
+# end gene g1
+###
+#
+# ----- sequence number 2 (length = 6484, name = contig_103_pilon_465413-471896) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_465413-471896 length=6484
+contig_103_pilon_465413-471896	database	start_codon	565	567	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	912	1053	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	1154	1362	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	1437	1597	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	1777	1924	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	1996	2167	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	2252	2419	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	2515	3946	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	4186	5570	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	intron	5841	6026	.	+	.	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	565	911	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	1054	1153	.	+	1	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	1363	1436	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	1598	1776	.	+	1	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	1925	1995	.	+	2	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	2168	2251	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	2420	2514	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	3947	4185	.	+	1	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	5571	5840	.	+	2	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	CDS	6027	6172	.	+	2	transcript_id "104_t.1"; gene_id "104_t";
+contig_103_pilon_465413-471896	database	stop_codon	6170	6172	.	+	0	transcript_id "104_t.1"; gene_id "104_t";
+# Predicted genes for sequence number 2 on both strands
+# start gene g2
+contig_103_pilon_465413-471896	AUGUSTUS	gene	565	6172	0.02	+	.	g2
+contig_103_pilon_465413-471896	AUGUSTUS	transcript	565	6172	0.02	+	.	g2.t1
+contig_103_pilon_465413-471896	AUGUSTUS	start_codon	565	567	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	912	1053	0.8	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	1154	1362	0.96	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	1437	1597	0.88	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	1777	1924	0.98	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	1996	2167	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	2252	2419	0.64	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	2515	3943	0.12	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	4186	5570	0.41	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	intron	5841	6026	0.99	+	.	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	565	911	0.2	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	1054	1153	0.93	+	1	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	1363	1436	0.89	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	1598	1776	0.97	+	1	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	1925	1995	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	2168	2251	0.99	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	2420	2514	0.2	+	0	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	3944	4185	0.28	+	1	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	5571	5840	0.96	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	CDS	6027	6172	1	+	2	transcript_id "g2.t1"; gene_id "g2";
+contig_103_pilon_465413-471896	AUGUSTUS	stop_codon	6170	6172	.	+	0	transcript_id "g2.t1"; gene_id "g2";
+# protein sequence = [MVAASAVTLIGARGVPLAATDCSPFVRGVAAARQSLPFALTRTGASSRGGGVVRSTYEPDKKEPTTLRKVVGGDGWIA
+# ENDGLVRSLPLFLGAGALVAVLLNRSLSGIAPVADSSSAQSRSDVLALALAATVLLQGLVWKSIQPRPVVSVEMDGVDCFNMVPGLPDDAAGELKWVW
+# DALRNATRTKAMVVLYGGACVLQAGMAATAVDGSVTPVNASEFMKGALYKGVQKTGRQIYLANLVLYPGRFELSFLPSNTQAVLLQPLGDDGVLVLAS
+# DSIRGFTPADQAWVGTIAEKVDTTLQDWVASPTAKVEGQAPLYSRPNPSQSRPQFIQNTTNAHPFSGPSKFALGANSIALCHAKWRRRSESERRSGAE
+# LGAQHKDGRRGLRMIASCISRASQNGSTDIIDEAINFFRANVLFRKFEVKGPADKLLVYLTLYINMALKRIEACKTEADGVKAIINLGLEKFPLPGEP
+# GFPLGGLFTAPQTKDEGELLRNYFKQLREETSGRLMEKVYRQNGTPNKWWLAFAKRKFMNIMMPL]
+# end gene g2
+###
+#
+# ----- sequence number 3 (length = 8181, name = contig_103_pilon_546978-555158) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_546978-555158 length=8181
+contig_103_pilon_546978-555158	database	start_codon	1293	1295	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	1395	1497	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	1591	1690	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	1787	1908	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	2071	3060	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	3161	3295	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	3362	3516	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	3576	3959	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	4035	4254	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	4435	4840	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	4907	5215	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	5282	5399	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	5511	5716	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	5807	6011	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	6119	6578	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	6694	7303	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	intron	7357	7567	.	+	.	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	1293	1394	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	1498	1590	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	1691	1786	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	1909	2070	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	3061	3160	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	3296	3361	.	+	2	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	3517	3575	.	+	2	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	3960	4034	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	4255	4434	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	4841	4906	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	5216	5281	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	5400	5510	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	5717	5806	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	6012	6118	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	6579	6693	.	+	1	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	7304	7356	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	CDS	7568	7793	.	+	1	transcript_id "118_t.1"; gene_id "118_t";
+contig_103_pilon_546978-555158	database	stop_codon	7791	7793	.	+	0	transcript_id "118_t.1"; gene_id "118_t";
+# Predicted genes for sequence number 3 on both strands
+# start gene g3
+contig_103_pilon_546978-555158	AUGUSTUS	gene	1293	7818	0.01	+	.	g3
+contig_103_pilon_546978-555158	AUGUSTUS	transcript	1293	7818	0.01	+	.	g3.t1
+contig_103_pilon_546978-555158	AUGUSTUS	start_codon	1293	1295	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	1395	1497	0.65	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	1591	1690	0.42	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	1787	1908	0.82	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	2071	2168	0.54	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	2224	2336	0.5	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	2402	3060	0.49	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	3161	3295	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	3362	3516	0.84	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	3600	3959	0.34	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	4035	4254	0.45	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	4435	4840	0.68	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	4907	5215	0.95	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	5282	5399	0.87	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	5511	6011	0.52	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	6119	6578	0.82	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	6694	7303	0.2	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	7357	7567	0.9	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	intron	7690	7720	0.27	+	.	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	1293	1394	0.43	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	1498	1590	0.8	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	1691	1786	0.36	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	1909	2070	0.92	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	2169	2223	0.48	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	2337	2401	0.45	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	3061	3160	0.85	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	3296	3361	0.99	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	3517	3599	0.7	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	3960	4034	0.57	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	4255	4434	0.61	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	4841	4906	0.83	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	5216	5281	0.88	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	5400	5510	0.92	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	6012	6118	0.76	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	6579	6693	0.89	+	1	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	7304	7356	0.47	+	0	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	7568	7689	0.27	+	1	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	CDS	7721	7818	0.46	+	2	transcript_id "g3.t1"; gene_id "g3";
+contig_103_pilon_546978-555158	AUGUSTUS	stop_codon	7816	7818	.	+	0	transcript_id "g3.t1"; gene_id "g3";
+# protein sequence = [MAAPASDSSDASAAAIEQLYQFGERLNESKDKSKRSFVLCFRFAKAMRSAQGNESCVSGVTGTRPELWRRREVMDTHA
+# SVGMRAVAKRDDTDVGLACNEADYLGIIASAKGSAKAKQLTAQLIPRFFKYFPGLSSNAINAQLDLCEEDELGIIGLEFSVWGFSDMEFVYGFRQREV
+# QLDLTMGSFSELYVMIRVQAIRGLPQLCKDTPEHLPKIADVLGQLLLAEEALERDAASKALMSLLRQDAKGSLTALFKHIENSDENLREKVLTFVKER
+# VFPIRKEILHPQEEMEKHITDLIKKSLQLRPVVMQCLQDVTGAEFKMFMEFLKGLALFGPEAPVERVQELLEIVEGQADLDAVFNITDTDHIDRLMSC
+# LNMALPFYARGASNSKFLNYINKHLLPVFEKLPENKKLDLLKNLAESSPYTSAQDARQLLPSILQLVKTPNTTNSLCGYKIVTGQPSDRLGEDFTELF
+# TDFNERLSVVEELAKAANKKLTQGMSEHNKALSAAKTDDEKAQVETSKPAPASTQGAAAGAGKKRHVNNANGGGASASAPKRGRGDGQLGSSQLVNRA
+# LAGLEAGALGEGPGEAGVGAGIIATEIIDVREALRR]
+# end gene g3
+###
+#
+# ----- sequence number 4 (length = 3642, name = contig_103_pilon_946314-949955) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_946314-949955 length=3642
+contig_103_pilon_946314-949955	database	start_codon	1293	1295	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	intron	1389	1504	.	+	.	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	intron	1650	1759	.	+	.	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	intron	2491	2516	.	+	.	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	intron	2724	2754	.	+	.	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	CDS	1293	1388	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	CDS	1505	1649	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	CDS	1760	2490	.	+	2	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	CDS	2517	2723	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	CDS	2755	3576	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+contig_103_pilon_946314-949955	database	stop_codon	3574	3576	.	+	0	transcript_id "186_t.1"; gene_id "186_t";
+# Predicted genes for sequence number 4 on both strands
+# start gene g4
+contig_103_pilon_946314-949955	AUGUSTUS	gene	1293	3576	0.14	+	.	g4
+contig_103_pilon_946314-949955	AUGUSTUS	transcript	1293	3576	0.14	+	.	g4.t1
+contig_103_pilon_946314-949955	AUGUSTUS	start_codon	1293	1295	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	intron	1389	1504	0.57	+	.	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	intron	1650	1759	0.84	+	.	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	intron	2491	2516	0.95	+	.	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	intron	2730	2754	0.5	+	.	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	CDS	1293	1388	0.44	+	0	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	CDS	1505	1649	0.57	+	0	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	CDS	1760	2490	0.89	+	2	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	CDS	2517	2729	0.5	+	0	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	CDS	2755	3576	0.99	+	0	transcript_id "g4.t1"; gene_id "g4";
+contig_103_pilon_946314-949955	AUGUSTUS	stop_codon	3574	3576	.	+	0	transcript_id "g4.t1"; gene_id "g4";
+# protein sequence = [MDESIMDGVSGAGDPDEGLTGRPVAGSEFTTWGQVGPGPHTGACKLGRSRKPTVKASQSQGRGIRKGRELPNRLKIST
+# GYGNGGAPGAARRRAEARVRMRVEAPGSGGPTTATATAGANRDAVGGVQCARCRGPGMGTVRSSSGDGDGDGDGRGRGRGASGRRPTGRKGRRGGGEL
+# EGSETSGKGPRCTNKETESGPGELQRRHQAQAARPDARPWTRIALGAAHSGVWSVTAGSQLQVRAAAANRSEGARERRHLPSAGRALSRRSEAQPSPP
+# AIACKCRTRIARRSIVGPGAARVAAPGASFRLALFYSWAGGAEVRVAQCAGALGGRVSGAAAAGAAWGGRGGGRRGFGGRLVRAAGEGGHGECVGRGP
+# PRWGWRGGGGQGLAMIDRCGVVWDGVRGAMAEAGSPGSPDSPHSDEYGGNHGSGDRDNSNVREQDRFLPIANISRIMKKALPANAKIAKDAKETVQEC
+# VSEFISFITSEYPFRRIACHRRRGAVRVRAFGRRRVRCRWLCVAVRCTGRRDFTATAGIRGVCLSCRRWFRVRAPGGFRAWQWRPRSGASGTERFMCE
+# RVRGSQRVSPVALRVGRWVARGRSGGAVARAVGFGRCVGSGKSTHGNLGLWASLPGSIEWWEWEAPVWCSVALRTHLAAAAVGCGVRGPVSWTMTKRP
+# GS]
+# end gene g4
+###
+#
+# ----- sequence number 5 (length = 2487, name = contig_103_pilon_1341153-1343639) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_1341153-1343639 length=2487
+contig_103_pilon_1341153-1343639	database	start_codon	14	16	.	+	0	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	intron	200	594	.	+	.	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	intron	652	1051	.	+	.	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	CDS	14	199	.	+	0	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	CDS	595	651	.	+	0	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	CDS	1052	1195	.	+	0	transcript_id "280_t.1"; gene_id "280_t";
+contig_103_pilon_1341153-1343639	database	stop_codon	1193	1195	.	+	0	transcript_id "280_t.1"; gene_id "280_t";
+# Predicted genes for sequence number 5 on both strands
+# (none)
+#
+# ----- sequence number 6 (length = 9490, name = contig_103_pilon_1551058-1560547) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_1551058-1560547 length=9490
+contig_103_pilon_1551058-1560547	database	start_codon	1293	1295	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	1473	1846	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	1895	2109	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	2274	4306	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	4458	4713	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	4781	5450	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	5627	5842	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	intron	7583	7943	.	+	.	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	1293	1472	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	1847	1894	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	2110	2273	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	4307	4457	.	+	1	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	4714	4780	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	5451	5626	.	+	2	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	5843	7582	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	CDS	7944	8198	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+contig_103_pilon_1551058-1560547	database	stop_codon	8196	8198	.	+	0	transcript_id "318_t.1"; gene_id "318_t";
+# Predicted genes for sequence number 6 on both strands
+# start gene g5
+contig_103_pilon_1551058-1560547	AUGUSTUS	gene	1293	8198	0.03	+	.	g5
+contig_103_pilon_1551058-1560547	AUGUSTUS	transcript	1293	8198	0.03	+	.	g5.t1
+contig_103_pilon_1551058-1560547	AUGUSTUS	start_codon	1293	1295	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	1602	1846	0.32	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	1895	2109	0.65	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	2421	2634	0.3	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	2706	3197	0.45	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	3253	4306	0.7	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	4473	4713	0.67	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	4781	5450	0.52	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	5627	5842	0.98	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	intron	7583	7943	0.99	+	.	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	1293	1601	0.37	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	1847	1894	0.55	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	2110	2420	0.33	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	2635	2705	0.49	+	1	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	3198	3252	0.69	+	2	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	4307	4472	0.58	+	1	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	4714	4780	0.73	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	5451	5626	0.94	+	2	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	5843	7582	0.93	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	CDS	7944	8198	0.88	+	0	transcript_id "g5.t1"; gene_id "g5";
+contig_103_pilon_1551058-1560547	AUGUSTUS	stop_codon	8196	8198	.	+	0	transcript_id "g5.t1"; gene_id "g5";
+# protein sequence = [MLRPLHMHRALGGAATQRAGRGGKVASKEASKLSSKHRVGREASGEHGTGAGKETEPNREVARAGPKTLNCHNWEGLN
+# WLKSAHTLEDPPISDWVFLLTLQSMTLYITTPRNGIADFESKGEGAEWSSPPLLLSSLTAELRTCAHCLNPLRCSIAEFPFASRIARNGQHHVGAWSA
+# SSRDSRGRGEGRSVSLLKSRLLRSRLVTGCSSCLESNSSSLMFPQFSPSERRRLSFREMRAVMSECQGRCGLRASFRSHKSGHGAPPRRPSSLILTKS
+# EAPCRYFTMPGGCVRGDKCMFSHPTAEIMSMEMAKQVGGTKVLYLVRISAEDLRKKIFVGGLSPSVESDDLRDFFEVNYGPVLDAVVIGSQAGDQMQS
+# RGFGFVTFKHAASVSAAVEAHYINIYGKKVEIKGAVPRSELPAPLEVSRADCDTLIDSQTATYANKELDLDEVGMLEVATPGSLCLPKNEPLQSNQMS
+# SMVEPQHVRPSESAPSSLSGPPSSRVSNVSSESSISQSVVREASSESSSSTSQGRPSAQASSVSRDTCSQSVMRRASSSNIVQEGKPAWLNSFEEWLP
+# EFLTRVSMRLKEGEWYPLSSLKGDYRAICGLELDHVSLGFEKLSDFVRSFPELCRMKIVPVGRGPATHMVLLPPYTRTNPSEAGRRSLSNITARSFVD
+# GTRSYAEVACHGSAARLGRPDTVPSSNPAFYRGLPNQLVRQGTHTGVPLSSGGITSSTTDRQPPISCGIRRGLPSREIRGPSASYAAAAGYNAGLIST
+# SNGPLRTSINHGEGHSGSDLSNGITGTSNSSSSNRSCQSANHVTSEITEDSGIMSAGGEINSSDANSGLSKEDLGLLQELVSRLKKMGMEHLRASNLG
+# ATVNSQPALVTMHDALSPTRCKAPPGYQASQKPINNVDNERERSRYFPFFDQEPKTPTQENLPTTTPFNHPFAGFLPENFPPSSSMWSQDANSNRIKD
+# GRYGFQGRTIESFDPFCQFYEDSPLSNDSIYGIPKGYLSASSSPGQNFSKIAGTCEMCFERPALWVAVPCGHKNMCSVCKGSLHQQATAQCLVCAGYV
+# ERWIALH]
+# end gene g5
+###
+#
+# ----- sequence number 7 (length = 2707, name = contig_103_pilon_1604558-1607264) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_1604558-1607264 length=2707
+contig_103_pilon_1604558-1607264	database	start_codon	1293	1295	.	+	0	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	intron	1429	1985	.	+	.	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	intron	2291	2504	.	+	.	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	CDS	1293	1428	.	+	0	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	CDS	1986	2290	.	+	2	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	CDS	2505	2558	.	+	0	transcript_id "327_t.1"; gene_id "327_t";
+contig_103_pilon_1604558-1607264	database	stop_codon	2556	2558	.	+	0	transcript_id "327_t.1"; gene_id "327_t";
+# Predicted genes for sequence number 7 on both strands
+# start gene g6
+contig_103_pilon_1604558-1607264	AUGUSTUS	gene	1	2558	0.32	+	.	g6
+contig_103_pilon_1604558-1607264	AUGUSTUS	transcript	1	2558	0.32	+	.	g6.t1
+contig_103_pilon_1604558-1607264	AUGUSTUS	intron	1	1985	0.48	+	.	transcript_id "g6.t1"; gene_id "g6";
+contig_103_pilon_1604558-1607264	AUGUSTUS	intron	2291	2504	0.72	+	.	transcript_id "g6.t1"; gene_id "g6";
+contig_103_pilon_1604558-1607264	AUGUSTUS	CDS	1986	2290	0.5	+	2	transcript_id "g6.t1"; gene_id "g6";
+contig_103_pilon_1604558-1607264	AUGUSTUS	CDS	2505	2558	0.69	+	0	transcript_id "g6.t1"; gene_id "g6";
+contig_103_pilon_1604558-1607264	AUGUSTUS	stop_codon	2556	2558	.	+	0	transcript_id "g6.t1"; gene_id "g6";
+# protein sequence = [TKIIIAGSRSEDRGKSWAQEGGKAEEEAVAYQPSAASCAHAALVFHRPELASDDGARTCVRSTHLSLALLPLRPPRGL
+# RLSCSSHCTRAHPPVHAQPSLDEGDVWELAGSVVVEAEFI]
+# end gene g6
+###
+#
+# ----- sequence number 8 (length = 1940, name = contig_103_pilon_1900222-1902161) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_1900222-1902161 length=1940
+contig_103_pilon_1900222-1902161	database	start_codon	134	136	.	+	0	transcript_id "376_t.1"; gene_id "376_t";
+contig_103_pilon_1900222-1902161	database	intron	416	534	.	+	.	transcript_id "376_t.1"; gene_id "376_t";
+contig_103_pilon_1900222-1902161	database	CDS	134	415	.	+	0	transcript_id "376_t.1"; gene_id "376_t";
+contig_103_pilon_1900222-1902161	database	CDS	535	648	.	+	0	transcript_id "376_t.1"; gene_id "376_t";
+contig_103_pilon_1900222-1902161	database	stop_codon	646	648	.	+	0	transcript_id "376_t.1"; gene_id "376_t";
+# Predicted genes for sequence number 8 on both strands
+# start gene g7
+contig_103_pilon_1900222-1902161	AUGUSTUS	gene	134	466	0.48	+	.	g7
+contig_103_pilon_1900222-1902161	AUGUSTUS	transcript	134	466	0.48	+	.	g7.t1
+contig_103_pilon_1900222-1902161	AUGUSTUS	start_codon	134	136	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+contig_103_pilon_1900222-1902161	AUGUSTUS	CDS	134	466	0.48	+	0	transcript_id "g7.t1"; gene_id "g7";
+contig_103_pilon_1900222-1902161	AUGUSTUS	stop_codon	464	466	.	+	0	transcript_id "g7.t1"; gene_id "g7";
+# protein sequence = [MSLSSLKGKGGRDELPVVASRKQPVRATLQVNPGTLAKRERSWVTVVHARPFQNPVLARPGEGPRFRGGCADCRKCGC
+# SQNNALGMRPGNSGYTVTKSFPPVVSTKPPHS]
+# end gene g7
+###
+#
+# ----- sequence number 9 (length = 5948, name = contig_103_pilon_2209208-2215155) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_2209208-2215155 length=5948
+contig_103_pilon_2209208-2215155	database	stop_codon	53	55	.	-	0	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	intron	110	593	.	-	.	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	intron	674	834	.	-	.	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	intron	967	1089	.	-	.	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	intron	1613	4070	.	-	.	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	intron	4234	4495	.	-	.	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	53	109	.	-	0	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	594	673	.	-	2	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	835	966	.	-	2	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	1090	1612	.	-	0	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	4071	4233	.	-	1	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	CDS	4496	4656	.	-	0	transcript_id "435_t.1"; gene_id "435_t";
+contig_103_pilon_2209208-2215155	database	start_codon	4654	4656	.	-	0	transcript_id "435_t.1"; gene_id "435_t";
+# Predicted genes for sequence number 9 on both strands
+# start gene g8
+contig_103_pilon_2209208-2215155	AUGUSTUS	gene	53	4656	0.03	-	.	g8
+contig_103_pilon_2209208-2215155	AUGUSTUS	transcript	53	4656	0.03	-	.	g8.t1
+contig_103_pilon_2209208-2215155	AUGUSTUS	stop_codon	53	55	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	110	593	0.46	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	674	834	0.54	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	967	1089	0.97	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	1613	4070	0.85	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	4234	4313	0.24	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	4394	4454	0.28	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	intron	4523	4550	0.61	-	.	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	53	109	0.52	-	0	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	594	673	0.7	-	2	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	835	966	0.61	-	2	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	1090	1612	0.97	-	0	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	4071	4233	0.68	-	1	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	4314	4393	0.2	-	0	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	4455	4522	0.37	-	2	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	CDS	4551	4656	0.67	-	0	transcript_id "g8.t1"; gene_id "g8";
+contig_103_pilon_2209208-2215155	AUGUSTUS	start_codon	4654	4656	.	-	0	transcript_id "g8.t1"; gene_id "g8";
+# protein sequence = [MENGLDRSLRSLASKLSKLSTLASRSTSMLTCTSTRRASGVGGAGGANRVGGVRRNKPVEKGRAGRASGASRVERNKS
+# MSTSASSQSGVGAHEAGPSFLALLYFLCSTLQQSLHIFMSSQQRVRWQAGRARRNKLMSTLAVNLRSLSALLLCARRHTYAITTCVDALPLARYFRVS
+# SPTLIPPLDSRKHVESYSFCWGVSDHPTTKRFQHRTLPTPKATEEFFPRISGISLATAALVGWRLGALEVGFSVIPGYVTSTNNYDARNGTRRENGDG
+# SHEVDDSYGDRSLVERRQGEVTADPATSSRTRLDWNDFHAGEGREVRNGKAAGPLEVVLCLQLWELVVIHYIGEQWTFLGIAAPSVKCGKTTGCFTAA
+# FRGYETTLCKFEGGDSIIMTAEESVGGSLY]
+# end gene g8
+###
+#
+# ----- sequence number 10 (length = 4422, name = contig_103_pilon_3028316-3032737) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_3028316-3032737 length=4422
+contig_103_pilon_3028316-3032737	database	start_codon	1170	1172	.	+	0	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	intron	1487	1595	.	+	.	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	intron	1659	1813	.	+	.	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	intron	1931	2312	.	+	.	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	intron	2596	2722	.	+	.	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	intron	2885	2974	.	+	.	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	1170	1486	.	+	0	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	1596	1658	.	+	1	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	1814	1930	.	+	1	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	2313	2595	.	+	1	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	2723	2884	.	+	0	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	CDS	2975	3130	.	+	0	transcript_id "592_t.1"; gene_id "592_t";
+contig_103_pilon_3028316-3032737	database	stop_codon	3128	3130	.	+	0	transcript_id "592_t.1"; gene_id "592_t";
+# Predicted genes for sequence number 10 on both strands
+# start gene g9
+contig_103_pilon_3028316-3032737	AUGUSTUS	gene	1170	3130	0.45	+	.	g9
+contig_103_pilon_3028316-3032737	AUGUSTUS	transcript	1170	3130	0.45	+	.	g9.t1
+contig_103_pilon_3028316-3032737	AUGUSTUS	start_codon	1170	1172	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	intron	1487	1595	0.97	+	.	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	intron	1659	1813	0.95	+	.	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	intron	1931	2312	0.59	+	.	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	intron	2596	2722	0.99	+	.	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	intron	2885	2974	0.88	+	.	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	1170	1486	0.96	+	0	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	1596	1658	0.97	+	1	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	1814	1930	0.9	+	1	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	2313	2595	0.72	+	1	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	2723	2884	0.92	+	0	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	CDS	2975	3130	0.74	+	0	transcript_id "g9.t1"; gene_id "g9";
+contig_103_pilon_3028316-3032737	AUGUSTUS	stop_codon	3128	3130	.	+	0	transcript_id "g9.t1"; gene_id "g9";
+# protein sequence = [MVSGGEVDVEKLLPESGMTIPPPPSCIALPTSSIPDLELQAGVEQHWTKRAIVPFVVLTSVQFFTASYQTLSKVALTS
+# GIDPFFLTFYRNLVAFLFLAPFAYYLERGIRPKLTLATIGRLNVLAFFGILANQQLFLIGLTLTSTLFTGVSQNMIPVITFLLAALFGMETISFRKTS
+# DLAKMLGTLTCILGAVTMTMFKGIALYQRPSGQGVLDHGLEHSHPSFKHLGLPQALQFKIGYEALGALCLFLNCTSWGLYLINQGSALEKYPALLSMG
+# TLMELFGCIQVAIVGAACEGTRFLDFRSLTMNQFSIVLYGGILISGINLLLQAWCLGQVGPLIVSLFSPVQTLLVAFMAVLILGDTLYMGM]
+# end gene g9
+###
+#
+# ----- sequence number 11 (length = 3129, name = contig_103_pilon_3089273-3092401) -----
+#
+
+# annotation: 
+# Sequence contig_103_pilon_3089273-3092401 length=3129
+contig_103_pilon_3089273-3092401	database	start_codon	458	460	.	+	0	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	intron	621	750	.	+	.	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	intron	780	1013	.	+	.	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	intron	1188	1402	.	+	.	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	intron	1590	1720	.	+	.	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	intron	1803	1981	.	+	.	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	458	620	.	+	0	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	751	779	.	+	2	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	1014	1187	.	+	0	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	1403	1589	.	+	0	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	1721	1802	.	+	2	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	CDS	1982	2024	.	+	1	transcript_id "601_t.1"; gene_id "601_t";
+contig_103_pilon_3089273-3092401	database	stop_codon	2022	2024	.	+	0	transcript_id "601_t.1"; gene_id "601_t";
+# Predicted genes for sequence number 11 on both strands
+# start gene g10
+contig_103_pilon_3089273-3092401	AUGUSTUS	gene	458	2024	0.17	+	.	g10
+contig_103_pilon_3089273-3092401	AUGUSTUS	transcript	458	2024	0.17	+	.	g10.t1
+contig_103_pilon_3089273-3092401	AUGUSTUS	start_codon	458	460	.	+	0	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	intron	621	750	0.99	+	.	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	intron	780	1013	0.99	+	.	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	intron	1188	1402	0.99	+	.	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	intron	1590	1702	0.64	+	.	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	intron	1803	1981	0.41	+	.	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	458	620	0.65	+	0	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	751	779	1	+	2	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	1014	1187	0.98	+	0	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	1403	1589	1	+	0	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	1703	1802	0.33	+	2	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	CDS	1982	2024	0.41	+	1	transcript_id "g10.t1"; gene_id "g10";
+contig_103_pilon_3089273-3092401	AUGUSTUS	stop_codon	2022	2024	.	+	0	transcript_id "g10.t1"; gene_id "g10";
+# protein sequence = [MESNGAAPAVTVKPPVKQPKPATPTFQSTPLNQRILSTMERRTVAAHPWHDLEIGPEAPAIFNTVIEIGKGSKVKYEL
+# DKKSGLIKVDRILYSSVVYPHNYGFIPRTLCEDEDPIDVLVIMQEPVLPGCFLRARAIGLMPMIDQGEKDDKIIAVCADDPEYRHFKDISELPPHRLA
+# EIRRFFEDFIPSPTDKKNENKEVAVNDFLGHEAAIEAIGHSMNLYASYIVESLRQ]
+# end gene g10
+###
+#
+# ----- sequence number 12 (length = 3911, name = contig_104_pilon_198016-201926) -----
+#
+
+# annotation: 
+# Sequence contig_104_pilon_198016-201926 length=3911
+contig_104_pilon_198016-201926	database	start_codon	32	34	.	+	0	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	intron	429	1304	.	+	.	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	intron	1610	3079	.	+	.	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	intron	3147	3618	.	+	.	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	CDS	32	428	.	+	0	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	CDS	1305	1609	.	+	2	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	CDS	3080	3146	.	+	0	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	CDS	3619	3875	.	+	2	transcript_id "751_t.1"; gene_id "751_t";
+contig_104_pilon_198016-201926	database	stop_codon	3873	3875	.	+	0	transcript_id "751_t.1"; gene_id "751_t";
+# Predicted genes for sequence number 12 on both strands
+# start gene g11
+contig_104_pilon_198016-201926	AUGUSTUS	gene	310	1567	0.11	-	.	g11
+contig_104_pilon_198016-201926	AUGUSTUS	transcript	310	1567	0.11	-	.	g11.t1
+contig_104_pilon_198016-201926	AUGUSTUS	stop_codon	310	312	.	-	0	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	375	483	0.3	-	.	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	676	882	0.47	-	.	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	971	1123	0.69	-	.	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	310	374	0.25	-	2	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	484	675	0.2	-	2	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	883	970	0.69	-	0	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	1124	1567	0.55	-	0	transcript_id "g11.t1"; gene_id "g11";
+contig_104_pilon_198016-201926	AUGUSTUS	start_codon	1565	1567	.	-	0	transcript_id "g11.t1"; gene_id "g11";
+# protein sequence = [MRESFCENIGKVVGCGHVNKGDDTVGEVLAYNMILHINMLCTLVKFGIADKAYCSLVIRVEDCRRYLRVGEVIHELAH
+# PKNLLGGKMGCNIFNLSGRTGCCSLLAASPSYRASIEHDNKSRARFAIVNICGVVCITICLEDVWLWASAAPNNFAIWKLVSVSSSVEEVKSKCVWGL
+# ADETIINKETKDKFVEARAKIYTRISLGGDEVVFVEKVMESHIPYSRALFEAVDSFFQVVDVCGFAAIERIVRMESNLTTGEKVSE]
+# end gene g11
+###
+# start gene g12
+contig_104_pilon_198016-201926	AUGUSTUS	gene	2921	3875	0.09	+	.	g12
+contig_104_pilon_198016-201926	AUGUSTUS	transcript	2921	3875	0.09	+	.	g12.t1
+contig_104_pilon_198016-201926	AUGUSTUS	start_codon	2921	2923	.	+	0	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	2936	2962	0.4	+	.	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	3062	3085	0.7	+	.	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	intron	3193	3568	0.31	+	.	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	2921	2935	0.44	+	0	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	2963	3061	0.7	+	0	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	3086	3192	0.31	+	0	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	CDS	3569	3875	0.33	+	1	transcript_id "g12.t1"; gene_id "g12";
+contig_104_pilon_198016-201926	AUGUSTUS	stop_codon	3873	3875	.	+	0	transcript_id "g12.t1"; gene_id "g12";
+# protein sequence = [MKRSQGFVFCAASLPSLLGCEENGSGDGVWFGYGGIMRVYGDANGERLLCRGLRGAALGVSSREKGGLRVSRVWRYRH
+# VGYVTDRIALRAVSGMDLASKASLCVSGFGDRARGTKRAAMPGSTLAKEPAVRFCFALCPASVNRVASGSAVRSQGSQLKSNPEPGSARIDRNVVAV]
+# end gene g12
+###
+#
+# ----- sequence number 13 (length = 6460, name = contig_105_pilon_17922-24381) -----
+#
+
+# annotation: 
+# Sequence contig_105_pilon_17922-24381 length=6460
+contig_105_pilon_17922-24381	database	start_codon	39	41	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	229	604	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	723	1173	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	1253	1383	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	1489	1872	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	1957	2355	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	2539	2570	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	2647	2837	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	2939	3410	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	3765	5061	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	5371	5395	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	intron	5734	5824	.	+	.	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	39	228	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	605	722	.	+	2	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	1174	1252	.	+	1	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	1384	1488	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	1873	1956	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	2356	2538	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	2571	2646	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	2838	2938	.	+	2	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	3411	3764	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	5062	5370	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	5396	5733	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	CDS	5825	6017	.	+	1	transcript_id "795_t.1"; gene_id "795_t";
+contig_105_pilon_17922-24381	database	stop_codon	6015	6017	.	+	0	transcript_id "795_t.1"; gene_id "795_t";
+# Predicted genes for sequence number 13 on both strands
+# start gene g13
+contig_105_pilon_17922-24381	AUGUSTUS	gene	39	3782	0.03	+	.	g13
+contig_105_pilon_17922-24381	AUGUSTUS	transcript	39	3782	0.03	+	.	g13.t1
+contig_105_pilon_17922-24381	AUGUSTUS	start_codon	39	41	.	+	0	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	229	412	0.64	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	559	1173	0.34	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	1253	1454	0.76	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	1605	1872	0.87	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	1957	2326	0.62	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	2539	2570	0.69	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	2647	2837	0.44	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	2939	3410	0.97	+	.	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	39	228	0.23	+	0	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	413	558	0.72	+	2	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	1174	1252	0.77	+	0	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	1455	1604	0.89	+	2	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	1873	1956	0.77	+	2	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	2327	2538	0.5	+	2	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	2571	2646	0.68	+	0	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	2838	2938	0.44	+	2	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	3411	3782	0.69	+	0	transcript_id "g13.t1"; gene_id "g13";
+contig_105_pilon_17922-24381	AUGUSTUS	stop_codon	3780	3782	.	+	0	transcript_id "g13.t1"; gene_id "g13";
+# protein sequence = [MVNDSASPKVRLFDASLAGVCETMECGLTTSFTEESSTGENCVGVGSMTRVSMHNDRLRILHKGGTTEGPGAGKQGCR
+# RLRAATEKPDSKALDRQNDPSAHKLLAEDKAKSFCPPRTSASHFHSVVQALFVGKSRNYPGGANGGGYVMNKYEAVATSAVILFSCGLLNCLPVKYVD
+# YLGLFSAAWSFLDPQSPLRLSPRPPHEPIRHLWLRCVRPYVEWLDLVYWQTEETKTSDKNGPLAMLTAIIATIILGYAHILGITFAVMDPDMLLDPAN
+# DAGGYAIGQRFYQGALSALALWLFQSTGVASAASLATPALPLSKLWHKLNRHEGPVNAAWLGTAMAFVMTLPSLGSLVAFQAMVSIATVGAYISYAIP
+# IFIRVTLAHRTFVPGPVHFGASVVQPERGVGGGRVGGHHHGALLLAGELCSELPVVELHPGGCGRRRRGRHVVLAVECSQVVQGPGLPGDEKVASTA]
+# end gene g13
+###
+# start gene g14
+contig_105_pilon_17922-24381	AUGUSTUS	gene	4905	6017	0.09	+	.	g14
+contig_105_pilon_17922-24381	AUGUSTUS	transcript	4905	6017	0.09	+	.	g14.t1
+contig_105_pilon_17922-24381	AUGUSTUS	start_codon	4905	4907	.	+	0	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	4918	5035	0.21	+	.	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	5371	5395	0.93	+	.	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	intron	5699	5807	0.72	+	.	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	4905	4917	0.42	+	0	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	5036	5370	0.36	+	2	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	5396	5698	0.69	+	0	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	CDS	5808	6017	0.37	+	0	transcript_id "g14.t1"; gene_id "g14";
+contig_105_pilon_17922-24381	AUGUSTUS	stop_codon	6015	6017	.	+	0	transcript_id "g14.t1"; gene_id "g14";
+# protein sequence = [MCEKEQYSSKFTQPAEPRSEPVGLPPAYISVAKTWNTQHTRSRWFSSHDSDTPVLPQSTPCLDYAAEIYNGHRDDVPS
+# FPPEGDRCCDTAEGVGTTPRCHGKGATSPKSWADMAAMFANVSPNLDRLEFCPPRPRISVDRVSLSLSHTYPRACTERSEGGRRNEQPQSASASIRTS
+# DASFVNDGDDGRDGAAGPARVESDPALCRSALRMLNCCWPDRGGGLSILRCVGDGGVAWGGVAVRARGSIERGGLEVDWKWIVTLFTGCGAAGFSFNC
+# EEHELNLQFAAA]
+# end gene g14
+###
+#
+# ----- sequence number 14 (length = 5007, name = contig_105_pilon_69856-74862) -----
+#
+
+# annotation: 
+# Sequence contig_105_pilon_69856-74862 length=5007
+contig_105_pilon_69856-74862	database	start_codon	27	29	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	235	423	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	486	563	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	1147	1512	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	1753	2101	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	2314	2423	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	2532	2850	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	2916	3200	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	intron	3267	3399	.	+	.	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	27	234	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	424	485	.	+	2	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	564	1146	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	1513	1752	.	+	2	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	2102	2313	.	+	2	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	2424	2531	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	2851	2915	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	3201	3266	.	+	1	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	CDS	3400	3715	.	+	1	transcript_id "807_t.1"; gene_id "807_t";
+contig_105_pilon_69856-74862	database	stop_codon	3713	3715	.	+	0	transcript_id "807_t.1"; gene_id "807_t";
+# Predicted genes for sequence number 14 on both strands
+# start gene g15
+contig_105_pilon_69856-74862	AUGUSTUS	gene	1	521	0.21	+	.	g15
+contig_105_pilon_69856-74862	AUGUSTUS	transcript	1	521	0.21	+	.	g15.t1
+contig_105_pilon_69856-74862	AUGUSTUS	intron	235	423	0.71	+	.	transcript_id "g15.t1"; gene_id "g15";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	1	234	0.55	+	2	transcript_id "g15.t1"; gene_id "g15";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	424	521	0.37	+	2	transcript_id "g15.t1"; gene_id "g15";
+contig_105_pilon_69856-74862	AUGUSTUS	stop_codon	519	521	.	+	0	transcript_id "g15.t1"; gene_id "g15";
+# protein sequence = [SRETNEEGMQQCRPRRGGHNGAELGGGLTTCGSRINLACGRAAVDGRCSARTLRQPQCFRRRIIPRRPAACTFCSSIG
+# VSKFDSVRGQSELPTAAGFNVPHWWPPALQL]
+# end gene g15
+###
+# start gene g16
+contig_105_pilon_69856-74862	AUGUSTUS	gene	615	3789	0.03	+	.	g16
+contig_105_pilon_69856-74862	AUGUSTUS	transcript	615	3789	0.03	+	.	g16.t1
+contig_105_pilon_69856-74862	AUGUSTUS	start_codon	615	617	.	+	0	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	1240	1512	0.42	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	1753	2101	0.71	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	2314	2423	0.96	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	2532	2850	0.99	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	2916	3200	0.97	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	3267	3399	0.95	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	intron	3632	3741	0.34	+	.	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	615	1239	0.3	+	0	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	1513	1752	0.8	+	2	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	2102	2313	0.74	+	2	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	2424	2531	0.98	+	0	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	2851	2915	0.99	+	0	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	3201	3266	0.99	+	1	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	3400	3631	0.39	+	1	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	CDS	3742	3789	0.48	+	0	transcript_id "g16.t1"; gene_id "g16";
+contig_105_pilon_69856-74862	AUGUSTUS	stop_codon	3787	3789	.	+	0	transcript_id "g16.t1"; gene_id "g16";
+# protein sequence = [MLYDCGQSSRGAESGQEQCRRYFAALSYTTARHASQHRNAPPPVAPRGLRTGTRRWASAASPALFCFRLLVRTFDFRV
+# SWATGVCPCDGGSFCAWVPGFFFVWLRVSHRKAESCGEGFRCLVVFLSRTRATATCKKHLLVVRRGRGRVPRNLALLRSYSWSCFLAGWILIHDKCVP
+# SGWGRIHVRFQCWNAQLAPDFRRNQDALAFSICRVSTCVGGKHGCGIAGCRGWPTVLPSMAIACVSGPLRFAGCRALRPPASAMGQPPQQHPSVHHLG
+# LALVPAVAVFSTTLSGRVCISYADQSYGFKNQSTKKENRVYPIFIQKRDVEYPTAQLSTQSRMSGSKNFVGKLLEKALVIFVKSQLDDCEDLRVAVGG
+# NNWDLLGGNVRRIEVAATKAVYKGVVISEVGLAACNVRAKLGRKRLFQHPFRVNANIRIREQDFNSSLVSPLISSSFRDILPRNSPSLRVQYDNGNLH
+# FSSSEKQSDRCSQVEYPIILRVGVENGGEVISVESSKSDSVKKAFKGLRLSPQHTDDGVSC]
+# end gene g16
+###
+#
+# ----- sequence number 15 (length = 3482, name = contig_105_pilon_355002-358483) -----
+#
+
+# annotation: 
+# Sequence contig_105_pilon_355002-358483 length=3482
+contig_105_pilon_355002-358483	database	stop_codon	29	31	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	intron	269	451	.	-	.	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	intron	956	1202	.	-	.	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	intron	1542	1667	.	-	.	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	intron	1791	1884	.	-	.	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	CDS	29	268	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	CDS	452	955	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	CDS	1203	1541	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	CDS	1668	1790	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	CDS	1885	2190	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+contig_105_pilon_355002-358483	database	start_codon	2188	2190	.	-	0	transcript_id "867_t.1"; gene_id "867_t";
+# Predicted genes for sequence number 15 on both strands
+# start gene g17
+contig_105_pilon_355002-358483	AUGUSTUS	gene	29	2205	0.04	-	.	g17
+contig_105_pilon_355002-358483	AUGUSTUS	transcript	29	2205	0.04	-	.	g17.t1
+contig_105_pilon_355002-358483	AUGUSTUS	stop_codon	29	31	.	-	0	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	intron	285	389	0.48	-	.	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	intron	956	1202	0.41	-	.	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	intron	1542	1667	0.85	-	.	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	intron	1791	1884	0.95	-	.	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	CDS	29	284	0.45	-	1	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	CDS	390	955	0.19	-	0	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	CDS	1203	1541	0.36	-	0	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	CDS	1668	1790	0.86	-	0	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	CDS	1885	2205	0.4	-	0	transcript_id "g17.t1"; gene_id "g17";
+contig_105_pilon_355002-358483	AUGUSTUS	start_codon	2203	2205	.	-	0	transcript_id "g17.t1"; gene_id "g17";
+# protein sequence = [MNVTIMDDFQTSSSGEETVDHVRIGDGSIQLLPQNILPCEGLAEGKWTSKSVTLHDTFGSVVAKGIIVSVSFDLVVGS
+# NGPLGDNQVAVQISSTLCEEVVPNEWRFSVDNTAVVAFDHIATFFAFESPSDGEVSKLLSAEEINLVASRVHYDGEGNSVVTLEGIDVCLTAWRLIMG
+# VSKTTFYRYSEQSKAGMRARNHGNLGLKKPRQLTLQATATLKCILEKSADHMPHKSHNFGFWREGCFYVTSFVVEVERFLSTVNDAPARHIPAGVCDY
+# YSRQDGPWQDRISILLAQNEVFGWPREAPSSVTGMIAHGHGDVRYAHYGLDIYPKDANHTCWIFCKAITRSRESSDVVIRESSLRARSPHHCIPLFLK
+# VVEVCLSSLPPLSGVGVEAMPLPPILLVQLDNRRLGQQEPLCVLFRSLPVVKGIFREVYVSFMLVGHTHDDIDALLGSRRTSKVSFVDYIASGEEALE
+# GHTKAQQFKFYVDSLGIPRMQYKIYCTDSEWLPREGGGIKLWKEDSLGRPTLPVGSPRRFFRFK]
+# end gene g17
+###
+#
+# ----- sequence number 16 (length = 3483, name = contig_2_pilon_510988-514470) -----
+#
+
+# annotation: 
+# Sequence contig_2_pilon_510988-514470 length=3483
+contig_2_pilon_510988-514470	database	start_codon	135	137	.	+	0	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	intron	462	876	.	+	.	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	intron	1884	2357	.	+	.	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	CDS	135	461	.	+	0	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	CDS	877	1883	.	+	0	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	CDS	2358	2865	.	+	1	transcript_id "1359_t.1"; gene_id "1359_t";
+contig_2_pilon_510988-514470	database	stop_codon	2863	2865	.	+	0	transcript_id "1359_t.1"; gene_id "1359_t";
+# Predicted genes for sequence number 16 on both strands
+# start gene g18
+contig_2_pilon_510988-514470	AUGUSTUS	gene	1	2865	0.02	+	.	g18
+contig_2_pilon_510988-514470	AUGUSTUS	transcript	1	2865	0.02	+	.	g18.t1
+contig_2_pilon_510988-514470	AUGUSTUS	intron	1	102	0.53	+	.	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	intron	462	738	0.41	+	.	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	intron	788	898	0.4	+	.	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	intron	1884	2357	0.98	+	.	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	CDS	103	461	0.31	+	2	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	CDS	739	787	0.4	+	0	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	CDS	899	1883	0.75	+	2	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	CDS	2358	2865	0.19	+	1	transcript_id "g18.t1"; gene_id "g18";
+contig_2_pilon_510988-514470	AUGUSTUS	stop_codon	2863	2865	.	+	0	transcript_id "g18.t1"; gene_id "g18";
+# protein sequence = [GVFWKVWFLEMVREGTALVATKWVGLAAAIWVQASAGNAYMFAFYSPSLKAVLHYNQLQLNNLGVAKDFGENVGLIAG
+# LLCNKLPAWILLCTGALFGCLGYGTLWLVVSEQIAPLPYWQIAVCQREAYVILDIKVCSNSATWFNTAVLVTCMRNFPHSRGTVVGILKGFVGLSAAI
+# FAQVYTALLSGNSTLLLLFLTVVPTAVCLASMLFVRAVPAVGDVRDPEERRNFHYITAVCITLAGYLLVITFTEKLIEMNKLIPVVLTAVMVIFLVAP
+# LAIPFKALSEECCGVDREDISTLQGGIQEPLLKGDSQTNIQPSIPPLMIREATGNGTEELPGSRGGEALDQEEKGKRVTLREDVAAKLKQEEEDAETL
+# LAVGEGAVKRPKRRPRRGEDFKLRQALVKADFWLLFLTFFCGVGTGVTVINNLGQIGEAQGYYNVNIFVSLISIANFLGRLGGGSLSEHYIRSDAIPR
+# TVWMGVAQIVLIFVHLMFASALPGTLYVGSILLGLCYGMHFSIMVPTASELFGLKHFGMIYNFLTIANPLGSFLFSGLIAGYLYDREAAKDSSPGTMT
+# WGMLHKESVCTGAHCFRLTFYVMACVCSVGVILTCVLTFRIRRVYIALYRKSPHPSASDLQTLE]
+# end gene g18
+###
+#
+# ----- sequence number 17 (length = 4852, name = contig_2_pilon_862803-867654) -----
+#
+
+# annotation: 
+# Sequence contig_2_pilon_862803-867654 length=4852
+contig_2_pilon_862803-867654	database	stop_codon	1075	1077	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	1219	1343	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	1465	1635	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	1758	2028	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	2091	2431	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	2601	2978	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	intron	3153	3364	.	-	.	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	1075	1218	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	1344	1464	.	-	1	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	1636	1757	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	2029	2090	.	-	2	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	2432	2600	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	2979	3152	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	CDS	3365	3619	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+contig_2_pilon_862803-867654	database	start_codon	3617	3619	.	-	0	transcript_id "1419_t.1"; gene_id "1419_t";
+# Predicted genes for sequence number 17 on both strands
+# start gene g19
+contig_2_pilon_862803-867654	AUGUSTUS	gene	1075	3619	0.24	-	.	g19
+contig_2_pilon_862803-867654	AUGUSTUS	transcript	1075	3619	0.24	-	.	g19.t1
+contig_2_pilon_862803-867654	AUGUSTUS	stop_codon	1075	1077	.	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	1219	1343	0.99	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	1465	1635	0.98	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	1758	2028	1	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	2091	2431	0.83	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	2601	2978	0.99	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	intron	3153	3364	0.91	-	.	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	1075	1218	0.98	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	1344	1464	0.99	-	1	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	1636	1757	0.98	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	2029	2090	0.89	-	2	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	2432	2600	0.93	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	2979	3152	0.92	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	CDS	3365	3619	0.32	-	0	transcript_id "g19.t1"; gene_id "g19";
+contig_2_pilon_862803-867654	AUGUSTUS	start_codon	3617	3619	.	-	0	transcript_id "g19.t1"; gene_id "g19";
+# protein sequence = [MAARSAAASLLKRALSSAPKQQHVRCMSSETPKRKVAVLGAAGGIGQPLGLLMKLNPLVTDLSLYDIAATPGVASDLS
+# HINTGANVEGYAGDADLGKALKGCDLVIIPAGVPRKPGMTRDDLFNINAGIVRALASAIAEHCPEALVNMISNPVNSTVPIAAEVFKQKGTYDPKRLF
+# GVTTLDVVRARTFLAHKKGISVRGVDVPVVGGHAGVTILPLFSQATPSVQLSDEEIEALTKRTQDGGTEVVQAKAGKGSATLSMAYAGALFAESCLKG
+# LNGAQDIVECSYVASTVVPGLPFFSSKVRLGPNGVEEVMGLGNISDYEQKGLEALKSELMSSIQKGVDFANVKA]
+# end gene g19
+###
+#
+# ----- sequence number 18 (length = 4484, name = contig_30_pilon_109767-114250) -----
+#
+
+# annotation: 
+# Sequence contig_30_pilon_109767-114250 length=4484
+contig_30_pilon_109767-114250	database	stop_codon	546	548	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	636	739	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	1001	1102	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	1306	1590	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	2005	2128	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	2262	2364	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	2618	2736	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	3128	3413	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	intron	3542	3827	.	-	.	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	546	635	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	740	1000	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	1103	1305	.	-	2	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	1591	2004	.	-	2	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	2129	2261	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	2365	2617	.	-	1	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	2737	3127	.	-	2	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	3414	3541	.	-	1	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	CDS	3828	3922	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+contig_30_pilon_109767-114250	database	start_codon	3920	3922	.	-	0	transcript_id "1495_t.1"; gene_id "1495_t";
+# Predicted genes for sequence number 18 on both strands
+# start gene g20
+contig_30_pilon_109767-114250	AUGUSTUS	gene	546	3922	0.08	-	.	g20
+contig_30_pilon_109767-114250	AUGUSTUS	transcript	546	3922	0.08	-	.	g20.t1
+contig_30_pilon_109767-114250	AUGUSTUS	stop_codon	546	548	.	-	0	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	636	739	0.72	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	1001	1102	0.77	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	1306	1590	0.9	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	2005	2128	0.61	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	2262	2364	0.99	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	2618	2736	0.99	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	3128	3413	0.9	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	intron	3542	3827	0.7	-	.	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	546	635	0.39	-	0	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	740	1000	0.71	-	0	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	1103	1305	0.93	-	2	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	1591	2004	0.42	-	2	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	2129	2261	0.91	-	0	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	2365	2617	0.99	-	1	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	2737	3127	0.9	-	2	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	3414	3541	0.78	-	1	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	CDS	3828	3922	0.82	-	0	transcript_id "g20.t1"; gene_id "g20";
+contig_30_pilon_109767-114250	AUGUSTUS	start_codon	3920	3922	.	-	0	transcript_id "g20.t1"; gene_id "g20";
+# protein sequence = [MDAPPAVAMAELAADTPGFVFDTSSGLYYDASSGFYYDAKAGWYYNTQNGQYYIYENDTYVPLAPTNSNESAPPDQEE
+# DIREEATRTQGTLSSSGDATVLTQPAGLEADTETAINETSSGIVKDSTIRDVALIELDSEWQDLSCQRSQNLADSSCEASSGLIPGTEMSLLSMGTIP
+# VKNPDETFEATEQRDSVAESEETRPASVWIAEALTELYSQNTFEGPTQGGESEAYGDPSSQQMYYQPNSGLDSTYDYLYNDETWQEAQYHYRKQWGAI
+# VAWDDHAAIDNELYESDDQSEELEEGEWRPEEEEKENYVFADVDEVEEGEIREDPNEEPGVDGEVYGTHNGENPTHRGPSPTNEESYLHTTEASEDMA
+# GDRVDSSASDMAAEEQWQAQYLQPAKPKSRSYTGSMDLWDWSIIEQEKKIGKKVKKIFRLIGRLAPNATQVHPSLRGSGGLIRTTPIREADHDFVKVS
+# SGRIYKLRRPSSKHLTAYSGYVSSDPTQDWGLPTITTDTEEDGIDSSPGPNDAILSSSTGSGHRNRPKKKNARLKPKGTDGGPELKYRDRAAERRTLH
+# RGFGIGPGQKAVSVHELEKEEAEAATAMPAALEKAASARPIGRDNIGKRMLEGMGWKEGQSLGSGEGGLVDPILALGNTGRTGLGWL]
+# end gene g20
+###
+#
+# ----- sequence number 19 (length = 3407, name = contig_30_pilon_146082-149488) -----
+#
+
+# annotation: 
+# Sequence contig_30_pilon_146082-149488 length=3407
+contig_30_pilon_146082-149488	database	stop_codon	1293	1295	.	-	0	transcript_id "1501_t.1"; gene_id "1501_t";
+contig_30_pilon_146082-149488	database	intron	2011	2143	.	-	.	transcript_id "1501_t.1"; gene_id "1501_t";
+contig_30_pilon_146082-149488	database	CDS	1293	2010	.	-	1	transcript_id "1501_t.1"; gene_id "1501_t";
+contig_30_pilon_146082-149488	database	CDS	2144	2298	.	-	0	transcript_id "1501_t.1"; gene_id "1501_t";
+contig_30_pilon_146082-149488	database	start_codon	2296	2298	.	-	0	transcript_id "1501_t.1"; gene_id "1501_t";
+# Predicted genes for sequence number 19 on both strands
+# start gene g21
+contig_30_pilon_146082-149488	AUGUSTUS	gene	1293	2298	0.07	-	.	g21
+contig_30_pilon_146082-149488	AUGUSTUS	transcript	1293	2298	0.07	-	.	g21.t1
+contig_30_pilon_146082-149488	AUGUSTUS	stop_codon	1293	1295	.	-	0	transcript_id "g21.t1"; gene_id "g21";
+contig_30_pilon_146082-149488	AUGUSTUS	intron	2011	2143	0.83	-	.	transcript_id "g21.t1"; gene_id "g21";
+contig_30_pilon_146082-149488	AUGUSTUS	CDS	1293	2010	0.13	-	1	transcript_id "g21.t1"; gene_id "g21";
+contig_30_pilon_146082-149488	AUGUSTUS	CDS	2144	2298	0.58	-	0	transcript_id "g21.t1"; gene_id "g21";
+contig_30_pilon_146082-149488	AUGUSTUS	start_codon	2296	2298	.	-	0	transcript_id "g21.t1"; gene_id "g21";
+# protein sequence = [MPIPRPHGPRQGSASAGLRRRGLAPWLDPRQAAPQHKSRQEGALRSSLPARGSTDTKWRYYNNRSKVGEAQPRYHCNT
+# CDRQFTYAGTARPTMNPQRPSARRTAEATANEVAAEQAAMEAAAIEAAATEAAAVEVARRIAKKVEKAARKVEKADRRAARRIAKRAAKRSPKLAEEP
+# PVGSTTEMLRHPTSPATSEAPCTALVSASAGSDEDVELIVSMLSQYDDIDSGLEWMSDPCRDESEPDDRGLEGFQMWMDCRSADSVEELHWTDLVVIG
+# MEMEGPILSPGRVLID]
+# end gene g21
+###
+# start gene g22
+contig_30_pilon_146082-149488	AUGUSTUS	gene	2321	2575	0.59	-	.	g22
+contig_30_pilon_146082-149488	AUGUSTUS	transcript	2321	2575	0.59	-	.	g22.t1
+contig_30_pilon_146082-149488	AUGUSTUS	stop_codon	2321	2323	.	-	0	transcript_id "g22.t1"; gene_id "g22";
+contig_30_pilon_146082-149488	AUGUSTUS	CDS	2321	2575	0.59	-	0	transcript_id "g22.t1"; gene_id "g22";
+contig_30_pilon_146082-149488	AUGUSTUS	start_codon	2573	2575	.	-	0	transcript_id "g22.t1"; gene_id "g22";
+# protein sequence = [MGVSSFDFTSAFVRAQHSFTIPHRAFIHLRWSAFIRLGRRPLISRTGSHYLLGFGPRTSLGKTALLVGADRGPIATGC
+# GRMPPD]
+# end gene g22
+###
+#
+# ----- sequence number 20 (length = 5320, name = contig_36_pilon_204489-209808) -----
+#
+
+# annotation: 
+# Sequence contig_36_pilon_204489-209808 length=5320
+contig_36_pilon_204489-209808	database	start_codon	335	337	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	543	669	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	855	1125	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	1444	1662	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	1756	2102	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	2193	2343	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	2428	2835	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	3022	3484	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	3580	3894	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	intron	4082	4433	.	+	.	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	335	542	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	670	854	.	+	2	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	1126	1443	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	1663	1755	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	2103	2192	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	2344	2427	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	2836	3021	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	3485	3579	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	3895	4081	.	+	1	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	CDS	4434	4547	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+contig_36_pilon_204489-209808	database	stop_codon	4545	4547	.	+	0	transcript_id "1588_t.1"; gene_id "1588_t";
+# Predicted genes for sequence number 20 on both strands
+# start gene g23
+contig_36_pilon_204489-209808	AUGUSTUS	gene	335	4547	0.21	+	.	g23
+contig_36_pilon_204489-209808	AUGUSTUS	transcript	335	4547	0.21	+	.	g23.t1
+contig_36_pilon_204489-209808	AUGUSTUS	start_codon	335	337	.	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	543	669	0.97	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	855	2102	0.41	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	2193	2343	0.63	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	2428	2835	0.95	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	3022	3484	0.92	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	3580	3894	0.86	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	intron	4082	4433	0.95	+	.	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	335	542	0.83	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	670	854	0.72	+	2	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	2103	2192	0.89	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	2344	2427	0.64	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	2836	3021	1	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	3485	3579	0.93	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	3895	4081	0.91	+	1	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	CDS	4434	4547	0.95	+	0	transcript_id "g23.t1"; gene_id "g23";
+contig_36_pilon_204489-209808	AUGUSTUS	stop_codon	4545	4547	.	+	0	transcript_id "g23.t1"; gene_id "g23";
+# protein sequence = [MTGGESSRSASALKRQSSATVCAEFNYRLGKTMGFGAFSKVKSATHVLTGQKVAIKIINKEKMKDMEDKVRRELKIMQ
+# LVTHPHVVRLYEIIETPSDIFVVMEYVESGDLFDFIVLNGRLHEDDARHFFQQVDEDVASQVEKIGFDKKWLVDCLHRREQTKATVTYYLLLDSQRSH
+# NPDDYLESDFEELDEPGDGSEDVPQGVPKYDTSLITEVAQVPADLCNNSMKLVEPNEAGSFIRIMQNGSWAVGLQSQAHPREIMTEVLKTLRDLDISW
+# KITGPYCIRWVSHFSTPMANQSEGSSASTSLSESPMTLGSLPTNDVSPQADSSSADDADLEEQFLVKFQLQLYKTREGRYLLDIQRIYGPNFLFMDLC
+# TAFLAEVGAV]
+# end gene g23
+###
+#
+# ----- sequence number 21 (length = 2802, name = contig_36_pilon_833916-836717) -----
+#
+
+# annotation: 
+# Sequence contig_36_pilon_833916-836717 length=2802
+contig_36_pilon_833916-836717	database	stop_codon	454	456	.	-	0	transcript_id "1701_t.1"; gene_id "1701_t";
+contig_36_pilon_833916-836717	database	intron	1791	2105	.	-	.	transcript_id "1701_t.1"; gene_id "1701_t";
+contig_36_pilon_833916-836717	database	CDS	454	1790	.	-	2	transcript_id "1701_t.1"; gene_id "1701_t";
+contig_36_pilon_833916-836717	database	CDS	2106	2280	.	-	0	transcript_id "1701_t.1"; gene_id "1701_t";
+contig_36_pilon_833916-836717	database	start_codon	2278	2280	.	-	0	transcript_id "1701_t.1"; gene_id "1701_t";
+# Predicted genes for sequence number 21 on both strands
+# start gene g24
+contig_36_pilon_833916-836717	AUGUSTUS	gene	454	2280	0.64	-	.	g24
+contig_36_pilon_833916-836717	AUGUSTUS	transcript	454	2280	0.64	-	.	g24.t1
+contig_36_pilon_833916-836717	AUGUSTUS	stop_codon	454	456	.	-	0	transcript_id "g24.t1"; gene_id "g24";
+contig_36_pilon_833916-836717	AUGUSTUS	intron	1791	2105	0.98	-	.	transcript_id "g24.t1"; gene_id "g24";
+contig_36_pilon_833916-836717	AUGUSTUS	CDS	454	1790	0.81	-	2	transcript_id "g24.t1"; gene_id "g24";
+contig_36_pilon_833916-836717	AUGUSTUS	CDS	2106	2280	0.79	-	0	transcript_id "g24.t1"; gene_id "g24";
+contig_36_pilon_833916-836717	AUGUSTUS	start_codon	2278	2280	.	-	0	transcript_id "g24.t1"; gene_id "g24";
+# protein sequence = [MGVGNIEIENALVPAGRSDRDWKLFPIDPSEEVRPEPWLKAAMDTLNRELMRQGTRIRGKAIDPSLIPVSPAAEYEKL
+# FEEHFLPCSHGFRPGLSQHTCLKQIRRDFQGTVWYIEGKSLSKYFHEIRPETVEGLVKDKIPSKSTRTLETHLMASLKASARRGITRDGFDPLASNIV
+# LHELDTFVMRLKRIIDRGRRQAAATPAVFNVARNALALDRTAYRTVTQKNRTISLGAPQDPYLRRITYTRFADDYIIGIIGPRALAVRVQELVNQFLR
+# VKLRMQVALDNFPISRAKDSKVPFLGYLISRNPDRIRKFCRRQGDKWITYRVEDIGTLCFLVDMQKVIRRLAEKGFCDKGGNPKPNFKYYQYPQDKSV
+# KVVGNILRGLADYYHLADSKRQCVNRLSYIMRSSLAKTYAAKFKLGSSAKVFKRGGKDLSRPIKVKGDSSPSLRSAPAGSFSVGGRSDRVERLRRPPA
+# FPFTKYRQIPRPDRMGLSRDWERQRTTRRSKRG]
+# end gene g24
+###
+#
+# ----- sequence number 22 (length = 2619, name = contig_36_pilon_915499-918117) -----
+#
+
+# annotation: 
+# Sequence contig_36_pilon_915499-918117 length=2619
+contig_36_pilon_915499-918117	database	stop_codon	299	301	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	intron	575	750	.	-	.	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	intron	865	1205	.	-	.	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	intron	1266	1832	.	-	.	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	CDS	299	574	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	CDS	751	864	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	CDS	1206	1265	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	CDS	1833	2603	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+contig_36_pilon_915499-918117	database	start_codon	2601	2603	.	-	0	transcript_id "1717_t.1"; gene_id "1717_t";
+# Predicted genes for sequence number 22 on both strands
+# start gene g25
+contig_36_pilon_915499-918117	AUGUSTUS	gene	299	2603	0.3	-	.	g25
+contig_36_pilon_915499-918117	AUGUSTUS	transcript	299	2603	0.3	-	.	g25.t1
+contig_36_pilon_915499-918117	AUGUSTUS	stop_codon	299	301	.	-	0	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	intron	575	750	0.98	-	.	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	intron	859	1205	0.32	-	.	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	intron	1266	1871	0.77	-	.	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	CDS	299	574	0.96	-	0	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	CDS	751	858	0.51	-	0	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	CDS	1206	1265	0.63	-	0	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	CDS	1872	2603	0.97	-	0	transcript_id "g25.t1"; gene_id "g25";
+contig_36_pilon_915499-918117	AUGUSTUS	start_codon	2601	2603	.	-	0	transcript_id "g25.t1"; gene_id "g25";
+# protein sequence = [MYHNSVCCSSVRHIRVQAYGECRSRCPNQGNKLDPLGLYGGLHGLSFDPTNTHALLCAVNALPSTQEPRRCPVQTSCS
+# DSPRQSSPCSSSASSNSSASLTTPSTSAPLPCPCPASGPGQPIPVAEAVQDTCSSGSNTSSSQETSSQGISQQGSSKESVQLQGVGAGTSSKGSVQAQ
+# GVGVGTPSKGSGKNGMTWIDWGWPGTHTPCPFNQRHTVDDVLIRPERVGSMITKTVREANTPDPSPDCIFCERSNGILCTFCPFIGKLCWHEETTAIP
+# AVDVKEVAASYMFVADIPGLKGTDVKVQVENDNVLKISGERKREDAEQDGEVKYVKVERSTGKFMRKFNLPANSSLDDISAACQDGVLTIIVHKTPPP
+# GINRLRTFDVNVTSAELRQ]
+# end gene g25
+###
+#
+# ----- sequence number 23 (length = 4391, name = contig_50_pilon_335767-340157) -----
+#
+
+# annotation: 
+# Sequence contig_50_pilon_335767-340157 length=4391
+contig_50_pilon_335767-340157	database	start_codon	805	807	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	982	1114	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	1197	1383	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	1620	1861	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	1904	2196	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	2242	2368	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	2425	2714	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	intron	2824	3030	.	+	.	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	805	981	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	1115	1196	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	1384	1619	.	+	2	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	1862	1903	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	2197	2241	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	2369	2424	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	2715	2823	.	+	1	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	CDS	3031	3099	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+contig_50_pilon_335767-340157	database	stop_codon	3097	3099	.	+	0	transcript_id "1992_t.1"; gene_id "1992_t";
+# Predicted genes for sequence number 23 on both strands
+# start gene g26
+contig_50_pilon_335767-340157	AUGUSTUS	gene	805	3099	0.01	+	.	g26
+contig_50_pilon_335767-340157	AUGUSTUS	transcript	805	3099	0.01	+	.	g26.t1
+contig_50_pilon_335767-340157	AUGUSTUS	start_codon	805	807	.	+	0	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	998	1124	0.46	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	1197	1371	0.47	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	1620	2196	0.33	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	2242	2368	0.98	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	2425	2714	0.54	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	intron	2824	3030	0.68	+	.	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	805	997	0.17	+	0	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	1125	1196	0.47	+	2	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	1372	1619	0.4	+	2	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	2197	2241	0.95	+	0	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	2369	2424	0.99	+	0	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	2715	2823	0.98	+	1	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	CDS	3031	3099	0.65	+	0	transcript_id "g26.t1"; gene_id "g26";
+contig_50_pilon_335767-340157	AUGUSTUS	stop_codon	3097	3099	.	+	0	transcript_id "g26.t1"; gene_id "g26";
+# protein sequence = [MDLHAMDFVMDFDPLACVHSHAVCRRLSIRLRRVFEREHCVMGLMSSYGFLRDPGVVCWVLFGPESARTALEVIKQQE
+# KTQDAPSESLGVEADKPRTVTYEELRDRLRKRIDMLRAKRHADETASTIKVAEDWQNQKKNDSWKRNRSSKAADGELGAPAAKRSKLETKAALATALQ
+# KDMHDPEKGQELHPSMHGVLPLAELQARRQERKEMQKKGQQVKQQNRKEHIQQRLTEKKERAIAKREKKLARPGFEGRKQGFINKGA]
+# end gene g26
+###
+#
+# ----- sequence number 24 (length = 595, name = contig_50_pilon_932810-933404) -----
+#
+
+# annotation: 
+# Sequence contig_50_pilon_932810-933404 length=595
+contig_50_pilon_932810-933404	database	start_codon	47	49	.	+	0	transcript_id "2122_t.1"; gene_id "2122_t";
+contig_50_pilon_932810-933404	database	intron	389	468	.	+	.	transcript_id "2122_t.1"; gene_id "2122_t";
+contig_50_pilon_932810-933404	database	CDS	47	388	.	+	0	transcript_id "2122_t.1"; gene_id "2122_t";
+contig_50_pilon_932810-933404	database	CDS	469	561	.	+	0	transcript_id "2122_t.1"; gene_id "2122_t";
+contig_50_pilon_932810-933404	database	stop_codon	559	561	.	+	0	transcript_id "2122_t.1"; gene_id "2122_t";
+# Predicted genes for sequence number 24 on both strands
+# start gene g27
+contig_50_pilon_932810-933404	AUGUSTUS	gene	47	561	0.43	+	.	g27
+contig_50_pilon_932810-933404	AUGUSTUS	transcript	47	561	0.43	+	.	g27.t1
+contig_50_pilon_932810-933404	AUGUSTUS	start_codon	47	49	.	+	0	transcript_id "g27.t1"; gene_id "g27";
+contig_50_pilon_932810-933404	AUGUSTUS	intron	389	468	0.43	+	.	transcript_id "g27.t1"; gene_id "g27";
+contig_50_pilon_932810-933404	AUGUSTUS	CDS	47	388	0.43	+	0	transcript_id "g27.t1"; gene_id "g27";
+contig_50_pilon_932810-933404	AUGUSTUS	CDS	469	561	0.43	+	0	transcript_id "g27.t1"; gene_id "g27";
+contig_50_pilon_932810-933404	AUGUSTUS	stop_codon	559	561	.	+	0	transcript_id "g27.t1"; gene_id "g27";
+# protein sequence = [MEVRSSVSSPFPFSDSGEAGTTARLRLDEGEGWLILLSLDRRHGSCRCFSLLRNAPFFSLRSQPEGMTKRQTPNDNRL
+# LRGSLVETTSSGGARCSDEEKELERAKLLRFYTPAPDPSAAGSESFRIRANLFLSSKIATPFRFFE]
+# end gene g27
+###
+#
+# ----- sequence number 25 (length = 5787, name = contig_50_pilon_1528802-1534588) -----
+#
+
+# annotation: 
+# Sequence contig_50_pilon_1528802-1534588 length=5787
+contig_50_pilon_1528802-1534588	database	stop_codon	250	252	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	288	410	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	550	1591	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	1676	3080	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	3118	3699	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	3791	3980	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	intron	4108	4228	.	-	.	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	250	287	.	-	2	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	411	549	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	1592	1675	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	3081	3117	.	-	1	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	3700	3790	.	-	2	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	3981	4107	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	CDS	4229	4495	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+contig_50_pilon_1528802-1534588	database	start_codon	4493	4495	.	-	0	transcript_id "2244_t.1"; gene_id "2244_t";
+# Predicted genes for sequence number 25 on both strands
+# start gene g28
+contig_50_pilon_1528802-1534588	AUGUSTUS	gene	1	4495	0.02	-	.	g28
+contig_50_pilon_1528802-1534588	AUGUSTUS	transcript	1	4495	0.02	-	.	g28.t1
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	1	410	0.32	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	550	1591	0.27	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	1676	3080	0.56	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	3118	3699	0.72	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	3791	3980	0.78	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	intron	4144	4228	0.25	-	.	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	411	549	0.37	-	0	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	1592	1675	0.28	-	0	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	3081	3117	0.62	-	1	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	3700	3790	0.72	-	2	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	3981	4143	0.31	-	0	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	CDS	4229	4495	0.68	-	0	transcript_id "g28.t1"; gene_id "g28";
+contig_50_pilon_1528802-1534588	AUGUSTUS	start_codon	4493	4495	.	-	0	transcript_id "g28.t1"; gene_id "g28";
+# protein sequence = [MRVRVLRYPRMIPGPLMTVWRYIGYAHTPRQPAAMQRHNLSWHQTRSGLSCPLTPRPQTLPQTVYEGVFRPISVANPV
+# ILRRYWSDTLRLLSLSHSCFLIKPIPAIALCTKPTISSQQSAQKFTCAASLSDPREGAFLAGGRRGRDWSDQEGLDRWQWRALMRALRLKRPALFRLL
+# LEVIMSSDFKSHSLNQDLVRKAAKAGKEVLQDQVKLGRLLSVVPWEIVRWLVVGAASFVSAIFVGGNIRAQIKTSSERWLVIVL]
+# end gene g28
+###
+#
+# ----- sequence number 26 (length = 3643, name = contig_50_pilon_1926814-1930456) -----
+#
+
+# annotation: 
+# Sequence contig_50_pilon_1926814-1930456 length=3643
+contig_50_pilon_1926814-1930456	database	stop_codon	32	34	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	197	288	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	358	404	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	573	672	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	783	885	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	1099	1223	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	1325	1411	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	1570	1598	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	1691	1818	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	2018	2115	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	2311	2487	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	2579	2720	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	2882	2906	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	2985	3124	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	3275	3380	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	intron	3485	3515	.	-	.	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	32	196	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	289	357	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	405	572	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	673	782	.	-	2	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	886	1098	.	-	2	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	1224	1324	.	-	1	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	1412	1569	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	1599	1690	.	-	2	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	1819	2017	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	2116	2310	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	2488	2578	.	-	1	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	2721	2881	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	2907	2984	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	3125	3274	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	3381	3484	.	-	2	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	CDS	3516	3573	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+contig_50_pilon_1926814-1930456	database	start_codon	3571	3573	.	-	0	transcript_id "2340_t.1"; gene_id "2340_t";
+# Predicted genes for sequence number 26 on both strands
+# start gene g29
+contig_50_pilon_1926814-1930456	AUGUSTUS	gene	32	1274	0.03	-	.	g29
+contig_50_pilon_1926814-1930456	AUGUSTUS	transcript	32	1274	0.03	-	.	g29.t1
+contig_50_pilon_1926814-1930456	AUGUSTUS	stop_codon	32	34	.	-	0	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	197	288	0.31	-	.	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	358	404	0.71	-	.	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	573	672	0.24	-	.	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	783	885	0.6	-	.	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	1135	1159	0.46	-	.	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	32	196	0.41	-	0	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	289	357	0.31	-	0	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	405	572	0.32	-	0	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	673	782	0.53	-	2	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	886	1134	0.54	-	2	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	1160	1274	0.51	-	0	transcript_id "g29.t1"; gene_id "g29";
+contig_50_pilon_1926814-1930456	AUGUSTUS	start_codon	1272	1274	.	-	0	transcript_id "g29.t1"; gene_id "g29";
+# protein sequence = [MSMVRGDAWGGCGVGAYVREYGSDVQPVERTEHVRQERTLICGVGEYGCLGLKPEVGGVSLTAVRASSNSISGSSPGD
+# WPQHVLPASQIAPESCIRGEAFPWTVDVLSVDGSAASVVGIARSAPDFAEVYKFIGSVFDPGVAGHLRKLKEMTAIDRETGGAGRALGGVGSGVNVAG
+# SMAVPADSMWWCGRGGVQVLLLMRNLSINLSSPDFEEHGVNGDDSGQVWLAEVAGGSRRMVKLLLSVYEESGMKGTRRGAAESTSIPGGVRRSCRVRR
+# ERRVGGVRGRWLRRRRV]
+# end gene g29
+###
+# start gene g30
+contig_50_pilon_1926814-1930456	AUGUSTUS	gene	1302	3573	0.01	-	.	g30
+contig_50_pilon_1926814-1930456	AUGUSTUS	transcript	1302	3573	0.01	-	.	g30.t1
+contig_50_pilon_1926814-1930456	AUGUSTUS	stop_codon	1302	1304	.	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	1374	1413	0.56	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	1570	1598	0.78	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	1691	1818	0.95	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	2018	2115	0.5	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	2311	2371	0.47	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	2461	2662	0.1	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	3086	3132	0.52	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	3275	3380	0.63	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	intron	3485	3515	0.94	-	.	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	1302	1373	0.56	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	1414	1569	0.61	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	1599	1690	0.88	-	2	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	1819	2017	0.52	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	2116	2310	0.54	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	2372	2460	0.35	-	2	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	2663	3085	0.13	-	2	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	3133	3274	0.56	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	3381	3484	0.59	-	2	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	CDS	3516	3573	0.94	-	0	transcript_id "g30.t1"; gene_id "g30";
+contig_50_pilon_1926814-1930456	AUGUSTUS	start_codon	3571	3573	.	-	0	transcript_id "g30.t1"; gene_id "g30";
+# protein sequence = [MGLCGGQWEVEHVVRSVGAELCNWSATIDVSLEPRGVTGWILDMRSWGNERRVSVRSRLEEDRGFRGVEDSNTGMVAA
+# VRGCPEMCVECVVRVCGESRGVGRTAVGSGGFGGPARGRIDRRALCAGWFVEWRLVQGVGGADWRASDGLCRNQRAWDGADSGVSGVGLCADPKSCAE
+# VLSESAEEWNRGACSSTPSEAQVSAALSTEGSKMRYVGRDEGGRCGDVGGVQGLRGGNAGRVRSVVAGDCEALMLVGEELGSVRFGSSVRWCGVLVDV
+# IVAVSSMNIREWLDVSAVWVHAGMTLWFAVRVGGVAVVDEEVVVVDDVGAGPVLRRSEILRLWAVQAESSYGSGSHVPAMSTGDPSVSAWVQQCSVSP
+# NTSASYDAAGESLVPSRTDRELCVGVAMSVREVGLVLAGSVGDVLFGKQWGANGDETCREKLWLCIVEVEARGMVLWVVAWVWVWKCEDGWWDSEQKQ
+# GVCRSPDVHGMGWMVEGGKCGMSGLEVFGSRAGRDVVVE]
+# end gene g30
+###
+#
+# ----- sequence number 27 (length = 3215, name = contig_50_pilon_2561894-2565108) -----
+#
+
+# annotation: 
+# Sequence contig_50_pilon_2561894-2565108 length=3215
+contig_50_pilon_2561894-2565108	database	stop_codon	1293	1295	.	-	0	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	intron	1326	1445	.	-	.	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	intron	1640	1755	.	-	.	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	intron	2672	2771	.	-	.	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	CDS	1293	1325	.	-	0	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	CDS	1446	1639	.	-	2	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	CDS	1756	2671	.	-	0	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	CDS	2772	3200	.	-	0	transcript_id "2443_t.1"; gene_id "2443_t";
+contig_50_pilon_2561894-2565108	database	start_codon	3198	3200	.	-	0	transcript_id "2443_t.1"; gene_id "2443_t";
+# Predicted genes for sequence number 27 on both strands
+# start gene g31
+contig_50_pilon_2561894-2565108	AUGUSTUS	gene	1293	3200	0.2	-	.	g31
+contig_50_pilon_2561894-2565108	AUGUSTUS	transcript	1293	3200	0.2	-	.	g31.t1
+contig_50_pilon_2561894-2565108	AUGUSTUS	stop_codon	1293	1295	.	-	0	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	intron	1326	1445	0.71	-	.	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	intron	1640	1755	0.3	-	.	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	intron	2672	2771	0.99	-	.	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	CDS	1293	1325	0.71	-	0	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	CDS	1446	1639	0.48	-	2	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	CDS	1756	2671	0.5	-	0	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	CDS	2772	3200	0.96	-	0	transcript_id "g31.t1"; gene_id "g31";
+contig_50_pilon_2561894-2565108	AUGUSTUS	start_codon	3198	3200	.	-	0	transcript_id "g31.t1"; gene_id "g31";
+# protein sequence = [MTDPPAWVWICGDKHATSQIVHYAEEGMLSKYLVVYADYVPCPNERLQDRSASHRTSKAKVSLIFLLKKGSRAADLGK
+# KIPTEFCAPNNVLYQKAGKYMELEYRMSSMEFRMEFYLKLVQLFCKPGDSLFTVFAGGKALCAGMMNSMSLYSVGYFDEAEDFKRIVALSRNLDMLDF
+# AHNAYAVDEEVFPIKARKLDAGSNRGKRKIVEILDSDDEEADAADPEEPNLDGEASSDMHGGSESPEPSNTADEGPRNQNLPPLIPIDDDAEYEGEFR
+# ALQRQRAETTAAGLNFFSPDVDTHRQRRRRHHSPGREPRVTLEGSSSAGGITPQPGRQEKAADMMASQTSFPEAEQSSFASDPKLMFMMQMMAKQSEQ
+# MQRMQLDMQRDLQREMQERQGEQMQQLQLNLQRENREFQKEVREESQKLFATLPDMITRTVTQLVAYNVQPLMAIEASGASEPSPSEGDSHMLVTPAA
+# SLPAPGSRLVHGSPSTSHALTEDNSIIGLTTEDVEMPDTEAAEVCALDVARKA]
+# end gene g31
+###
+#
+# ----- sequence number 28 (length = 4494, name = contig_54_pilon_217451-221944) -----
+#
+
+# annotation: 
+# Sequence contig_54_pilon_217451-221944 length=4494
+contig_54_pilon_217451-221944	database	stop_codon	872	874	.	-	0	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	intron	1122	1325	.	-	.	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	intron	2312	2430	.	-	.	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	intron	2481	2823	.	-	.	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	CDS	872	1121	.	-	1	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	CDS	1326	2311	.	-	0	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	CDS	2431	2480	.	-	2	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	CDS	2824	3202	.	-	0	transcript_id "2598_t.1"; gene_id "2598_t";
+contig_54_pilon_217451-221944	database	start_codon	3200	3202	.	-	0	transcript_id "2598_t.1"; gene_id "2598_t";
+# Predicted genes for sequence number 28 on both strands
+# start gene g32
+contig_54_pilon_217451-221944	AUGUSTUS	gene	872	3202	0.04	-	.	g32
+contig_54_pilon_217451-221944	AUGUSTUS	transcript	872	3202	0.04	-	.	g32.t1
+contig_54_pilon_217451-221944	AUGUSTUS	stop_codon	872	874	.	-	0	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	intron	1122	1325	0.61	-	.	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	intron	2312	2682	0.23	-	.	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	intron	2887	2911	0.44	-	.	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	CDS	872	1121	0.17	-	1	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	CDS	1326	2311	0.83	-	0	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	CDS	2683	2886	0.26	-	0	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	CDS	2912	3202	0.43	-	0	transcript_id "g32.t1"; gene_id "g32";
+contig_54_pilon_217451-221944	AUGUSTUS	start_codon	3200	3202	.	-	0	transcript_id "g32.t1"; gene_id "g32";
+# protein sequence = [MGWVGGYGGGDALGFKGEGGFKGEIGGRPAAAANPRWGRGEAEAVAVAFRRLRPPPGLTASSSSRLATIPTPHRALAC
+# HRRCDGLRPPRPAATLPFTLGRPVLLRGPLGFRALMEYMEVSSLARPPHPPLHFLTERGFVAFSFPVVTFNQSSRDRSSSVEAAETWGKGGGGMDGTS
+# GLQSLGSERETWIDEEVEALLDVWGDTYIHVKRENLGKRHWETVVREVNARLAHQREQPQMKNKIDSLKKRYKREKLSKGDNDRNLITWKWYDRCDML
+# WGTPKREMVTIGAVGGLHRVEAPHQADMMHQDSSRLVPFLAAMQPEVNGDQGVKAAASRIGDCHEESPPRAEVPPSPCTRCRSNAGVEPGKENVKRRK
+# LGTTITAQSMAKIVQGFADTYARVEQAKMEMTMAIEERHLQFLERMEVRRLENEERHMERKAKMEERRLELNQKLMEQKLEMQEKHMERRENLKLEIL
+# RLRLQVIGQPKKPQPVVEQQAVQTTRLDVRLVGGVGEDERSSLRACSAQKLHTIFRYSSYFWALCTLIGLPRSRSRRRKLGDLQRSLLRRLQCEKVIV
+# DISLPWLR]
+# end gene g32
+###
+#
+# ----- sequence number 29 (length = 4663, name = contig_54_pilon_326779-331441) -----
+#
+
+# annotation: 
+# Sequence contig_54_pilon_326779-331441 length=4663
+contig_54_pilon_326779-331441	database	stop_codon	1293	1295	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	1545	1899	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	2071	2222	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	2335	2769	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	2903	3178	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	3306	3670	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	3737	3972	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	intron	4066	4298	.	-	.	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	1293	1544	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	1900	2070	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	2223	2334	.	-	1	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	2770	2902	.	-	2	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	3179	3305	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	3671	3736	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	3973	4065	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	CDS	4299	4376	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+contig_54_pilon_326779-331441	database	start_codon	4374	4376	.	-	0	transcript_id "2616_t.1"; gene_id "2616_t";
+# Predicted genes for sequence number 29 on both strands
+# start gene g33
+contig_54_pilon_326779-331441	AUGUSTUS	gene	1293	4376	0.11	-	.	g33
+contig_54_pilon_326779-331441	AUGUSTUS	transcript	1293	4376	0.11	-	.	g33.t1
+contig_54_pilon_326779-331441	AUGUSTUS	stop_codon	1293	1295	.	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	1545	1899	0.98	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	2071	2222	1	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	2335	2769	0.67	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	2858	3178	0.69	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	3306	3670	0.61	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	3737	3775	0.88	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	3877	3941	0.41	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	intron	4066	4298	0.74	-	.	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	1293	1544	0.79	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	1900	2070	0.99	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	2223	2334	0.83	-	1	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	2770	2857	0.54	-	2	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	3179	3305	0.65	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	3671	3736	0.68	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	3776	3876	0.73	-	2	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	3942	4065	0.44	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	CDS	4299	4376	0.74	-	0	transcript_id "g33.t1"; gene_id "g33";
+contig_54_pilon_326779-331441	AUGUSTUS	start_codon	4374	4376	.	-	0	transcript_id "g33.t1"; gene_id "g33";
+# protein sequence = [MRESENAKHRSRGDEAQTTLVSTRKVTDAHEVESALRLPVSAAIGNDQIFCSPALDLVSVLENPHVRATALQAVGVCV
+# VELEFESQMFGAICVEMSQGLFQGKVYAFSLLFLELVMVKKWWLRLQFAFANDALLQHSIFCLSSLHGYGRGDGTFNIRIAILCVCTGCGAQEIGGAA
+# SGDFFILFLLPYVSMRCQREQSGVASEEAEEERARARRRLRAEQDAEFQAALLQDQERENRRRQKALRAAQKKREEEEAAAAAAKKEVALADRRRQKA
+# AVLETEPAPGPGVTSVRVRLPNGEHRERMFLNTATMQVVYDYVDTLMCFDVLSYSLFSSFPRVVYGSGTRDMTLKAAGFHARVSLFVQVDDDHQDTTI]
+# end gene g33
+###
+#
+# ----- sequence number 30 (length = 2164, name = contig_54_pilon_931263-933426) -----
+#
+
+# annotation: 
+# Sequence contig_54_pilon_931263-933426 length=2164
+contig_54_pilon_931263-933426	database	start_codon	702	704	.	+	0	transcript_id "2730_t.1"; gene_id "2730_t";
+contig_54_pilon_931263-933426	database	intron	952	1482	.	+	.	transcript_id "2730_t.1"; gene_id "2730_t";
+contig_54_pilon_931263-933426	database	CDS	702	951	.	+	0	transcript_id "2730_t.1"; gene_id "2730_t";
+contig_54_pilon_931263-933426	database	CDS	1483	1760	.	+	2	transcript_id "2730_t.1"; gene_id "2730_t";
+contig_54_pilon_931263-933426	database	stop_codon	1758	1760	.	+	0	transcript_id "2730_t.1"; gene_id "2730_t";
+# Predicted genes for sequence number 30 on both strands
+# start gene g34
+contig_54_pilon_931263-933426	AUGUSTUS	gene	702	1760	0.63	+	.	g34
+contig_54_pilon_931263-933426	AUGUSTUS	transcript	702	1760	0.63	+	.	g34.t1
+contig_54_pilon_931263-933426	AUGUSTUS	start_codon	702	704	.	+	0	transcript_id "g34.t1"; gene_id "g34";
+contig_54_pilon_931263-933426	AUGUSTUS	intron	952	1482	0.81	+	.	transcript_id "g34.t1"; gene_id "g34";
+contig_54_pilon_931263-933426	AUGUSTUS	CDS	702	951	0.63	+	0	transcript_id "g34.t1"; gene_id "g34";
+contig_54_pilon_931263-933426	AUGUSTUS	CDS	1483	1760	1	+	2	transcript_id "g34.t1"; gene_id "g34";
+contig_54_pilon_931263-933426	AUGUSTUS	stop_codon	1758	1760	.	+	0	transcript_id "g34.t1"; gene_id "g34";
+# protein sequence = [MALEKEHQHHHKEDGGGKALTTHKHKAGESQVTLWDPLECDPFNALGALWQGPMSLFSGFCTPGTKVDWKETADNHVF
+# KADLPGLTKADVKVTVEDGNMLQIVGQRREDMDKGATWHRVERNQNTFMRRLQLPSNARVDTMKIKVENGVLTVYVPKDKNFKATPRISKEVPVQWG]
+# end gene g34
+###
+#
+# ----- sequence number 31 (length = 6383, name = contig_54_pilon_1111772-1118154) -----
+#
+
+# annotation: 
+# Sequence contig_54_pilon_1111772-1118154 length=6383
+contig_54_pilon_1111772-1118154	database	stop_codon	1035	1037	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	1203	1338	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	1450	1692	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	1873	2060	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	2142	2275	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	2375	2837	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	2917	3457	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	3631	3834	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	4225	4591	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	4748	5050	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	5129	5252	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	5525	6004	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	intron	6129	6267	.	-	.	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	1035	1202	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	1339	1449	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	1693	1872	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	2061	2141	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	2276	2374	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	2838	2916	.	-	1	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	3458	3630	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	3835	4224	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	4592	4747	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	5051	5128	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	5253	5524	.	-	2	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	6005	6128	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	CDS	6268	6357	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+contig_54_pilon_1111772-1118154	database	start_codon	6355	6357	.	-	0	transcript_id "2766_t.1"; gene_id "2766_t";
+# Predicted genes for sequence number 31 on both strands
+# start gene g35
+contig_54_pilon_1111772-1118154	AUGUSTUS	gene	1035	6352	0.02	-	.	g35
+contig_54_pilon_1111772-1118154	AUGUSTUS	transcript	1035	6352	0.02	-	.	g35.t1
+contig_54_pilon_1111772-1118154	AUGUSTUS	stop_codon	1035	1037	.	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	1203	1338	0.83	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	1450	2060	0.34	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	2166	2275	0.41	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	2375	2837	0.52	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	2917	3168	0.85	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	3238	3457	0.88	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	3631	3834	0.78	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	4225	4591	0.86	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	4748	5050	0.74	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	5129	5252	0.98	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	5525	5623	0.55	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	5719	5979	0.36	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	intron	6133	6203	0.31	-	.	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	1035	1202	0.96	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	1339	1449	0.84	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	2061	2165	0.48	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	2276	2374	0.82	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	2838	2916	0.94	-	1	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	3169	3237	0.88	-	1	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	3458	3630	0.94	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	3835	4224	0.81	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	4592	4747	0.65	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	5051	5128	1	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	5253	5524	0.9	-	2	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	5624	5718	0.35	-	1	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	5980	6132	0.36	-	1	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	CDS	6204	6352	0.31	-	0	transcript_id "g35.t1"; gene_id "g35";
+contig_54_pilon_1111772-1118154	AUGUSTUS	start_codon	6350	6352	.	-	0	transcript_id "g35.t1"; gene_id "g35";
+# protein sequence = [MGTASRSAREAAFVVSSRPEQVRPCCANGSLFEFLSSSSQAPRACSLTTLKKMSFDLEEEEEEEGVLLVEMWDRASRA
+# LRSLARLSCLVGCGGEGVSRNDGQLVEFSGWEVGGDEFCKVGSRVKDNGGWVKRAMVFANEEPFAASRFSVEEKYESAVRARAEVDPDILCPICFQTM
+# EDAFLTRCGHNFCYTCIMTHLKNRNNCPSCARYLTIDQLLPNFLLSKMLKKASALKIPSNASPVEHLRLALEQGANLPGSELDSLLLLLSEKKQELEH
+# EVAESNTEVLLDFLYRSQIRKQEKLLEVQNDLHFLDDDIATVERRQKWLLMAKDRHCRRVFVEPPVYDLHSHPECESSSTGGALFVWRGGQSGVSTPL
+# SEHNPHSAERLRMRSVAYTSVMKDLEKGGCSLEDNPSVDSLDELAVVHKVTKKRRVLAQFDELQEAYLLRRRQVAIEQRRRQLQDSVVGKDACRNTDN
+# YSDGLDDFQSMLTAYTRYSRLRSVAELHHDDIFHISSNIVSSIEFDRDDELFATAGVSRRIKVFDFATSVMEYEEHEKRAWSVDFCRTDPSMLVSGSD
+# DGKVKVWCTKQEASAYSIDMKANICCVKYNPGSSDHIAIRTLRGHTNEKNFVGLTVNSEYIACGSETNEVFVYHKEMSKPTSCHKFEFPNAEDNEDDT
+# PHFISAVCWKSESPTMLAANSQGTIKVLELAP]
+# end gene g35
+###
+#
+# ----- sequence number 32 (length = 8420, name = contig_54_pilon_1676946-1685365) -----
+#
+
+# annotation: 
+# Sequence contig_54_pilon_1676946-1685365 length=8420
+contig_54_pilon_1676946-1685365	database	start_codon	778	780	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	871	979	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	1073	1243	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	1346	1483	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	1607	1823	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	1886	2155	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	2237	2551	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	2607	2803	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	2873	3101	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	3288	3482	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	3535	3721	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	3825	4182	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	4280	4465	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	4661	4812	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	4966	5069	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	5292	5478	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	5661	5800	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	5901	6205	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	6266	6975	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	intron	7096	7197	.	+	.	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	778	870	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	980	1072	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	1244	1345	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	1484	1606	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	1824	1885	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	2156	2236	.	+	1	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	2552	2606	.	+	1	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	2804	2872	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	3102	3287	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	3483	3534	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	3722	3824	.	+	2	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	4183	4279	.	+	1	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	4466	4660	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	4813	4965	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	5070	5291	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	5479	5660	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	5801	5900	.	+	1	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	6206	6265	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	6976	7095	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	CDS	7198	7512	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+contig_54_pilon_1676946-1685365	database	stop_codon	7510	7512	.	+	0	transcript_id "2881_t.1"; gene_id "2881_t";
+# Predicted genes for sequence number 32 on both strands
+# start gene g36
+contig_54_pilon_1676946-1685365	AUGUSTUS	gene	778	7512	0.01	+	.	g36
+contig_54_pilon_1676946-1685365	AUGUSTUS	transcript	778	7512	0.01	+	.	g36.t1
+contig_54_pilon_1676946-1685365	AUGUSTUS	start_codon	778	780	.	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	871	979	0.96	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	1073	1243	0.84	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	1346	1483	0.78	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	1607	1823	0.65	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	1886	2551	0.65	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	2607	2803	0.86	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	2873	3101	0.94	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	3347	3482	0.35	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	3535	3705	0.5	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	3825	4182	0.93	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	4280	4465	0.65	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	4661	4812	0.95	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	4966	5069	0.65	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	5292	5478	0.85	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	5632	6975	0.12	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	intron	7096	7197	0.92	+	.	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	778	870	0.69	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	980	1072	0.96	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	1244	1345	0.82	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	1484	1606	0.68	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	1824	1885	0.78	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	2552	2606	0.93	+	1	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	2804	2872	0.91	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	3102	3346	0.36	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	3483	3534	0.35	+	1	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	3706	3824	0.67	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	4183	4279	0.73	+	1	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	4466	4660	0.85	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	4813	4965	0.72	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	5070	5291	0.61	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	5479	5631	0.31	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	6976	7095	0.65	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	CDS	7198	7512	0.99	+	0	transcript_id "g36.t1"; gene_id "g36";
+contig_54_pilon_1676946-1685365	AUGUSTUS	stop_codon	7510	7512	.	+	0	transcript_id "g36.t1"; gene_id "g36";
+# protein sequence = [MWGPVEEFKRGQRFANFKTNEQNTSEGQGGQLLSTLPYEHETWGEGVYTHSLYRLGDRLPEWVTRLIPSNALIIDEKT
+# WMAYPYIRTTISIPFFNKLKIEMLSMHTDDDGSTENIHNLTEAELAIRKVDMIDIAFDDISRRDYRSELDPKLVVSKKTGYWGVQNRAEKLMINGIRQ
+# IVLLTHRNAFCWLDEWFDLTFEEICAREVLGRQRLKAAVKQPPIIDPKTGQEVIIEAEGPSPQDTDDASDSDDASDIEAEYFEAEVGIGQPISGALQL
+# IWVLSRQWSWPIETLSSLGPGTYQHRKVLGGLCTSLLSFKPNIDKMAEAGNEIVTAQPPDVPERCAVCATRDIPNSPPTLFCITCDEHFCERCFPQFH
+# VTSRLKVHATQRLLNNYTPLNATKVAPADKERPKKDPGLPPLHGPLNHSSSNEQETESTHNRQDERLANTGSLPRELETHDHTWIARTTSKLRSVKSG
+# FGALNGAHRVDDMSLQDISQPGASTTNVGHSDFDVGGLVNRPNKLCEELVRIVASLHQRAAESHTVGALARTGSQALGGSKRVFSRRSSQDLSAADTT
+# TDHKGEAVAADPYSVKEENSTWDIGVYADSVEMTALPAEPDIKANLLPIPRFKKGDEAAASSLDQAEPLVSFALCNGSKSSPVLRVYTAANIQTELEH
+# ACRDYLMAAVGVNKRTQTVLIPKILHWYARDFSHDAESLIEWIATKLPQEKRAAFDECTKKRSGIRGIRHRMSVQPYDWTFRYLYDPKL]
+# end gene g36
+###
+#
+# ----- sequence number 33 (length = 9359, name = contig_6_pilon_553370-562728) -----
+#
+
+# annotation: 
+# Sequence contig_6_pilon_553370-562728 length=9359
+contig_6_pilon_553370-562728	database	start_codon	13	15	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	481	606	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	1450	1581	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	1768	5191	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	5285	5406	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	5608	5909	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	6009	6333	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	6418	6682	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	6860	7017	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	7117	7318	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	intron	7565	7695	.	+	.	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	13	480	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	607	1449	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	1582	1767	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	5192	5284	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	5407	5607	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	5910	6008	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	6334	6417	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	6683	6859	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	7018	7116	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	7319	7564	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	CDS	7696	8067	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+contig_6_pilon_553370-562728	database	stop_codon	8065	8067	.	+	0	transcript_id "3182_t.1"; gene_id "3182_t";
+# Predicted genes for sequence number 33 on both strands
+# start gene g37
+contig_6_pilon_553370-562728	AUGUSTUS	gene	13	8535	0.01	+	.	g37
+contig_6_pilon_553370-562728	AUGUSTUS	transcript	13	8535	0.01	+	.	g37.t1
+contig_6_pilon_553370-562728	AUGUSTUS	start_codon	13	15	.	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	481	606	1	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	1450	1581	1	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	1770	5199	0.2	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	5285	5406	0.41	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	5608	5869	0.11	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	5914	5962	0.33	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	6044	6371	0.66	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	6445	6682	0.52	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	6860	6951	0.5	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	7117	7318	0.57	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	7565	7695	0.9	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	intron	8064	8426	0.35	+	.	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	13	480	0.44	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	607	1449	1	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	1582	1769	0.22	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	5200	5284	0.47	+	1	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	5407	5607	0.32	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	5870	5913	0.11	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	5963	6043	0.4	+	1	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	6372	6444	0.41	+	1	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	6683	6859	0.91	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	6952	7116	0.47	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	7319	7564	0.61	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	7696	8063	0.57	+	0	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	CDS	8427	8535	0.35	+	1	transcript_id "g37.t1"; gene_id "g37";
+contig_6_pilon_553370-562728	AUGUSTUS	stop_codon	8533	8535	.	+	0	transcript_id "g37.t1"; gene_id "g37";
+# protein sequence = [MAMAHMKRSEVAAACLIISLLATTLPSTNAHTVVEEYGYVPREVQSNQLHTLHTSKIDTERSDSKTEWEEVGFRMKIT
+# HIDAPSSPFSKQQASRAELHSRLVERDLARVDAIGKHVRSRSRHRFNKAAGSQAGPSLKDPVKSGLNSGTGEYFVTLQIGSPAKDVIATIDTGSDVFW
+# LQCKPCQQCYQQIGPVFDPAASTSFTTLKCSSPVCTQLQFFKCGKQSKNCLYAVAYGDGSVTVGDFSQDTLTLTSISGRPYKIPQFAFGCGHVNQGLF
+# VGSAGILGLGRGKLSFPTQLEGKVSNRFSYCLTDRFVNPDANSHIFFGGMASYGLQYTPLTQNPHLPAFYYVGLTGISVGKQTVTFPASLYQLDSTGN
+# GGVILDSGTSITRLVEPSYSIFRDSFRAATTYLTRVAGDSLFDTCYALKGGATNIPAVNLLFQNKATLVLPANNVLLPTDSQGTYCLAFAPSYVNISI
+# IGNVQQQNFRIEYDLANSRIGFGSADCATVYEASSGSKNVPTGARVRRARRLVKFVVENSAITVAGIPDAIATAGCTTPFLYARPAHSPLSSIVHQPL
+# LLPGCQPQSISSLCGVWTCSLALPGSKWWLFGDPFVLDLRDRGSKRGAITLGGFEESVFCLFLQLSGSTRNLDEPSTAEDEQSKVNLTCPSFFVNELR
+# ATIGPLTGRLEQFADDACLKRYLRARNWNIKKSEKMLKDSLAWRESYKPEEIRWCEVHARDTSIPDDLKADSVDVQNDIAGESETGKIYRANFKDKSG
+# HSVLVMHPGRQNTNNAEMQIKQLVYFLENAILNLPEDQEQMIWLIDFKGWSMKKSSPVSIARETANILQNHYPERLHVAILYNPPRLFEAFWMIVKPF
+# LDPKTFRKVKFVYAKNAESQKILTELFEEDTIKSTFEDPNDYTHQDYAKLMQDDDLKSALHWKGAGETKPDDTQVQKEAADPSVGGSKIEDAPANGHT
+# EVAEAPAAAPTAAPVVAPVSSIEHAQLRSLCLHCHDCELPVTNDLLGNAEDRTGV]
+# end gene g37
+###
+#
+# ----- sequence number 34 (length = 2078, name = contig_6_pilon_970136-972213) -----
+#
+
+# annotation: 
+# Sequence contig_6_pilon_970136-972213 length=2078
+contig_6_pilon_970136-972213	database	stop_codon	24	26	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	intron	156	205	.	-	.	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	intron	1385	1439	.	-	.	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	intron	1779	1820	.	-	.	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	CDS	24	155	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	CDS	206	1384	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	CDS	1440	1778	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	CDS	1821	2009	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+contig_6_pilon_970136-972213	database	start_codon	2007	2009	.	-	0	transcript_id "3257_t.1"; gene_id "3257_t";
+# Predicted genes for sequence number 34 on both strands
+# start gene g38
+contig_6_pilon_970136-972213	AUGUSTUS	gene	1	1393	0.38	-	.	g38
+contig_6_pilon_970136-972213	AUGUSTUS	transcript	1	1393	0.38	-	.	g38.t1
+contig_6_pilon_970136-972213	AUGUSTUS	intron	1	27	0.85	-	.	transcript_id "g38.t1"; gene_id "g38";
+contig_6_pilon_970136-972213	AUGUSTUS	intron	156	205	0.51	-	.	transcript_id "g38.t1"; gene_id "g38";
+contig_6_pilon_970136-972213	AUGUSTUS	CDS	28	155	0.45	-	0	transcript_id "g38.t1"; gene_id "g38";
+contig_6_pilon_970136-972213	AUGUSTUS	CDS	206	1393	0.44	-	0	transcript_id "g38.t1"; gene_id "g38";
+contig_6_pilon_970136-972213	AUGUSTUS	start_codon	1391	1393	.	-	0	transcript_id "g38.t1"; gene_id "g38";
+# protein sequence = [MQQISSKQLKCYGRRNRARPEPSSLEYGPGVVEDVSGATVSEGAGAAAATSVPAVGGVPAPAKAPHAGRGRPRKVVGA
+# PKQGERPPSDVGNEKVPATRSSVGRAVAPEAPEAARDRAPVEESAPEASGSRTPGQPQDRVPVRVRIVGPFSNGGSSMAGARVLGPPPPALRRRGDRS
+# RGRKPSELRARRRATAQRGMGAGARGRQLSRAGPRVRSAPGGSGGNVTGGVGDAGEQAGGEGDPEQPAPERRVGGKHRRESGEAGDGVIEKGRRGDLR
+# SRRDRRNASPREERWSGAGRGGEGRGASRCRGGGGREVPRREERCGGGGDRKEGRGEIGRGEEGGREVPPWEEGCGKLGQDGEAPAAAQGTLASRRRL
+# VAAQRRQREDSVLAQADDVVLKQEVTRRACIWAMPVTGDAGGALRTTRHGVTPSLNGSGSVCGLRP]
+# end gene g38
+###
+# start gene g39
+contig_6_pilon_970136-972213	AUGUSTUS	gene	1407	2009	0.41	-	.	g39
+contig_6_pilon_970136-972213	AUGUSTUS	transcript	1407	2009	0.41	-	.	g39.t1
+contig_6_pilon_970136-972213	AUGUSTUS	stop_codon	1407	1409	.	-	0	transcript_id "g39.t1"; gene_id "g39";
+contig_6_pilon_970136-972213	AUGUSTUS	intron	1779	1820	0.46	-	.	transcript_id "g39.t1"; gene_id "g39";
+contig_6_pilon_970136-972213	AUGUSTUS	CDS	1407	1778	0.41	-	0	transcript_id "g39.t1"; gene_id "g39";
+contig_6_pilon_970136-972213	AUGUSTUS	CDS	1821	2009	0.46	-	0	transcript_id "g39.t1"; gene_id "g39";
+contig_6_pilon_970136-972213	AUGUSTUS	start_codon	2007	2009	.	-	0	transcript_id "g39.t1"; gene_id "g39";
+# protein sequence = [MLRQLRSRGGTAIVQRPSYRLVPLHPSAPRVSCRCSRVASCCCSGGHLLGNRRPGTIASCLMLNGRNPSDDGRWLRRG
+# VAVAVGDADWRAAERRRWWVAVPEGDCVACGQAGGVTLWGLAGVWMVGRGGFGARAVGGALRARRGRRRGGRIGVASLDGAEGLCGSAGGLGWAARSF
+# VHWECMKREC]
+# end gene g39
+###
+#
+# ----- sequence number 35 (length = 4610, name = contig_89_pilon_12489-17098) -----
+#
+
+# annotation: 
+# Sequence contig_89_pilon_12489-17098 length=4610
+contig_89_pilon_12489-17098	database	start_codon	20	22	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	92	159	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	401	562	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	735	839	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	1030	1269	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	1327	1578	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	1754	1924	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	2002	2098	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	2436	2651	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	2959	3112	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	intron	3363	3523	.	+	.	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	20	91	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	160	400	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	563	734	.	+	2	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	840	1029	.	+	1	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	1270	1326	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	1579	1753	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	1925	2001	.	+	2	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	2099	2435	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	2652	2958	.	+	2	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	3113	3362	.	+	1	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	CDS	3524	3643	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+contig_89_pilon_12489-17098	database	stop_codon	3641	3643	.	+	0	transcript_id "3305_t.1"; gene_id "3305_t";
+# Predicted genes for sequence number 35 on both strands
+# start gene g40
+contig_89_pilon_12489-17098	AUGUSTUS	gene	1	3643	0.01	+	.	g40
+contig_89_pilon_12489-17098	AUGUSTUS	transcript	1	3643	0.01	+	.	g40.t1
+contig_89_pilon_12489-17098	AUGUSTUS	intron	1	164	0.3	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	422	562	0.76	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	735	839	0.48	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	1030	1144	0.42	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	1234	1521	0.37	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	1660	1883	0.22	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	2081	2111	0.93	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	2436	2651	0.99	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	2974	3112	0.62	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	intron	3336	3523	0.64	+	.	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	165	421	0.24	+	1	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	563	734	0.82	+	2	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	840	1029	0.29	+	1	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	1145	1233	0.55	+	0	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	1522	1659	0.38	+	1	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	1884	2080	0.5	+	1	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	2112	2435	0.92	+	2	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	2652	2973	0.66	+	2	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	3113	3335	0.69	+	1	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	CDS	3524	3643	0.25	+	0	transcript_id "g40.t1"; gene_id "g40";
+contig_89_pilon_12489-17098	AUGUSTUS	stop_codon	3641	3643	.	+	0	transcript_id "g40.t1"; gene_id "g40";
+# protein sequence = [LVKDEDASSWGPRWTAINGEFESKLASNPHLRFLCGKMFFVCDGNHRFEAQTRLHFRGREMIEAALLGLIAYAWRQKR
+# GGFSHECHRHGSLRYTVLRRSVPCQLETLKEMLSEEDYGKCAGGTRISRRGSKMTTDVFVALSFGDCEAAMLRRENIMRRLLKRIGVTRCQLCAHEIA
+# CENQTTIFREPFSKHLAIASHEVWRRVREEEMTLEKLRSHRRGGCSPRVRGRMACELESGRVFVEMFSNAIEEDELGDRHGGFERGQSPLMCTSGVGE
+# IGCGNMDSVPAHCVLDLSGGPGPPVFACILVTRIDFGQMRISKRSSLVRWLWEDLLSVEEEDVKKACFEGDSKEEVEEEVDIGDLLRERGADSCPRER
+# GARGRAISRLRRISRMLEKAEAKGGERGRRSREVSALRLLDSFDGGFGATWSRDTRKRDAGCCEALDVEAAASCVAALTDSARESDKPRALMVCEAAA
+# GGVDLMIVDLQRSSVPWCQATCAAVTAWNTNDLGFLAVVFAVGSSLVRDNGVLLLFREDDTAGSRRDIERLDDAYRLEDLESGRGDQPFAVDYWLVRS
+# YRGCRFRLTPFGLWVNLVSLGWTLLRMMSLDTVTRDGRSQRGSIPWRGGREKDPLILDCSLSPRPELGDRAYGALIVDLSVKPSKQRLEAASATLFVK
+# VRARGSVVIT]
+# end gene g40
+###
+#
+# ----- sequence number 36 (length = 2940, name = contig_95_pilon_236219-239158) -----
+#
+
+# annotation: 
+# Sequence contig_95_pilon_236219-239158 length=2940
+contig_95_pilon_236219-239158	database	start_codon	11	13	.	+	0	transcript_id "3349_t.1"; gene_id "3349_t";
+contig_95_pilon_236219-239158	database	CDS	11	2278	.	+	0	transcript_id "3349_t.1"; gene_id "3349_t";
+contig_95_pilon_236219-239158	database	stop_codon	2276	2278	.	+	0	transcript_id "3349_t.1"; gene_id "3349_t";
+# Predicted genes for sequence number 36 on both strands
+# start gene g41
+contig_95_pilon_236219-239158	AUGUSTUS	gene	11	2278	0.97	+	.	g41
+contig_95_pilon_236219-239158	AUGUSTUS	transcript	11	2278	0.97	+	.	g41.t1
+contig_95_pilon_236219-239158	AUGUSTUS	start_codon	11	13	.	+	0	transcript_id "g41.t1"; gene_id "g41";
+contig_95_pilon_236219-239158	AUGUSTUS	CDS	11	2278	0.97	+	0	transcript_id "g41.t1"; gene_id "g41";
+contig_95_pilon_236219-239158	AUGUSTUS	stop_codon	2276	2278	.	+	0	transcript_id "g41.t1"; gene_id "g41";
+# protein sequence = [MVLSDVFVLAFVPAACVVGIVFALTQWYIVSRVTVGGHAFNNGYMHVDEDGVDDSSVVAKCAEIQAAISEGSESFLAT
+# EYQYLSVFMGIFSVIIFVFLASVGGFSFDRQPCDYDPAQSCPSSIANAFFSTVAFILGAVTSTLSGYLGMRIATYANARTTLEARRGVGKAFIVAFRS
+# GSVMGFLLAANGLLVLFLTILAFKLYFRDDWVGLYEAITGYGLGGSAVALFGRVGGGIYTKAADVGADLVGKIEQNIPEDDPRNPAVIADNVGDNVGD
+# IAGMGADLFGSFAESTCAALVVSSISSFGTDRNFVAMCFPLLISAAGIFVCLITTLFATDLFTIKGVKEIEPTLKRQLVISTVLMTGAIFLVSWYALP
+# ETFTINVVGHLPKVVKNWHIFFCVGSGLWAGLIIGFVTEYFTSNAYQPVQDVADSCRTGAATNIIFGLALGYKSVIIPVFAIAAAIYLSYSLAAMYGI
+# AVAALGMLSTLATGLAIDAYGPISDNAGGIAEMAGMSHEVRERTDALDAAGNTTAAIGKGFAIGSAALVSLALFGAYVSRAGIASVDVIQPKEFVGLI
+# VGAMLPYWFSAMTMKSVGKAALAMVEEVRRQFRTIPGLMEGTTKPDYKRCVQISTDASIKEMIPPGALVMLTPLIVGTLFGVETLAGLLAGALVSGVQ
+# IAISASNTGGARDNAKKYIEAGNSEHAKSLGPKGSDAHKAAVIGDTVGDPLKDTSGPSLNILIKLMAVESLVFAPFFAANGGWLFRVWT]
+# end gene g41
+###
+#
+# ----- sequence number 37 (length = 2499, name = contig_95_pilon_363647-366145) -----
+#
+
+# annotation: 
+# Sequence contig_95_pilon_363647-366145 length=2499
+contig_95_pilon_363647-366145	database	stop_codon	1208	1210	.	-	0	transcript_id "3380_t.1"; gene_id "3380_t";
+contig_95_pilon_363647-366145	database	intron	1295	1724	.	-	.	transcript_id "3380_t.1"; gene_id "3380_t";
+contig_95_pilon_363647-366145	database	CDS	1208	1294	.	-	0	transcript_id "3380_t.1"; gene_id "3380_t";
+contig_95_pilon_363647-366145	database	CDS	1725	2165	.	-	0	transcript_id "3380_t.1"; gene_id "3380_t";
+contig_95_pilon_363647-366145	database	start_codon	2163	2165	.	-	0	transcript_id "3380_t.1"; gene_id "3380_t";
+# Predicted genes for sequence number 37 on both strands
+# start gene g42
+contig_95_pilon_363647-366145	AUGUSTUS	gene	1656	2165	0.09	-	.	g42
+contig_95_pilon_363647-366145	AUGUSTUS	transcript	1656	2165	0.09	-	.	g42.t1
+contig_95_pilon_363647-366145	AUGUSTUS	stop_codon	1656	1658	.	-	0	transcript_id "g42.t1"; gene_id "g42";
+contig_95_pilon_363647-366145	AUGUSTUS	CDS	1656	2165	0.09	-	0	transcript_id "g42.t1"; gene_id "g42";
+contig_95_pilon_363647-366145	AUGUSTUS	start_codon	2163	2165	.	-	0	transcript_id "g42.t1"; gene_id "g42";
+# protein sequence = [MVEKGTTEFDDWPLDLGPYLTGAEAQRVRVFIRLYYSCFAFSLQDLEGYTSKPIHIQLEDDHPIFRRPYKLSLSKKVG
+# VQTCCQELLAASLIELFNGEYICAIVMPSKKDIFGNWTEKQMCRNYQSINRKTKSDCYPMSTLEELFDAVGHARVFSTLDLRSVITSCHYR]
+# end gene g42
+###
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+37 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+---------------------------------------------\
+                 | sensitivity | specificity |
+---------------------------------------------|
+nucleotide level |       0.928 |       0.914 |
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity |
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                 91 |                 89 |             |             |
+exon level |    260 |    258 |  169 | ------------------ | ------------------ |       0.655 |        0.65 |
+           |    260 |    258 |      |   52 |   17 |   22 |   52 |   13 |   24 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |    42 |    37 |    9 |   33 |   28 |       0.243 |       0.214 |
+----------------------------------------------------------------------------/
+
+------------------------------------------------------------------------\
+            UTR | total pred | CDS bnd. corr. |   meanDiff | medianDiff |
+------------------------------------------------------------------------|
+            TSS |          3 |              0 |         -1 |         -1 |
+            TTS |          3 |              0 |         -1 |         -1 |
+------------------------------------------------------------------------|
+            UTR | uniq. pred |    unique anno |      sens. |      spec. |
+------------------------------------------------------------------------|
+                |  true positive = 1 bound. exact, 1 bound. <= 20bp off |
+ UTR exon level |          0 |              0 |       -nan |       -nan |
+------------------------------------------------------------------------|
+ UTR base level |          0 |              0 |       -nan |       -nan |
+------------------------------------------------------------------------/
+nucUTP= 0 nucUFP=0 nucUFPinside= 0 nucUFN=0
+# total time: 7.28
+# command line:
+# /opt/Augustus/bin/augustus --species=calle_chr3 --AUGUSTUS_CONFIG_PATH=/opt/Augustus/config/ --/Constant/dss_end=3 --/Constant/dss_start=3 --/Constant/ass_start=3 --/Constant/ass_end=2 --/Constant/ass_upwindow_size=13 --/IntronModel/d=950 --/IntronModel/ass_motif_memory=3 --/IntronModel/ass_motif_radius=2 --/ExonModel/tis_motif_memory=0 --/ExonModel/tis_motif_radius=1 --/Constant/trans_init_window=10 --/Constant/init_coding_len=4 --/ExonModel/patpseudocount=5.0 --/ExonModel/etpseudocount=3 --/ExonModel/etorder=2 --/Constant/intterm_coding_len=5 --/ExonModel/slope_of_bandwidth=0.39375 --/ExonModel/minwindowcount=10 --/IGenicModel/patpseudocount=5.0 --/IntronModel/patpseudocount=5.0 --/IntronModel/slope_of_bandwidth=0.4625 --/IntronModel/minwindowcount=8 --/IntronModel/asspseudocount=0.01525 --/IntronModel/dsspseudocount=0.0005 --/IntronModel/dssneighborfactor=0.007525 --/ExonModel/minPatSum=233.3 --/Constant/probNinCoding=0.23 --/Constant/decomp_num_steps=1 --/ExonModel/infile=exon-tmp8.pbl --/IntronModel/infile=intron-tmp8.pbl --/IGenicModel/infile=igenic-tmp8.pbl --/UtrModel/infile=utr-tmp8.pbl tmp_opt_calle_chr3/bucket8.gb
