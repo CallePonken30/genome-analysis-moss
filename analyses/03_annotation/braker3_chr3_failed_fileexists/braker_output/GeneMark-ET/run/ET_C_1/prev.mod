@@ -1,1 +1,0 @@
-/home/calle30/genome-analysis-moss/analyses/03_annotation/braker3_chr3/braker_output/GeneMark-ET/run/ET_B_1/ET_B_1.mod
