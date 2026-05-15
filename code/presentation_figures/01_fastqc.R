@@ -10,9 +10,7 @@ dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 mqc_dir <- "analyses/01_preprocessing/multiqc/multiqc_data"
 
 read_mqc <- function(file) {
-  path <- file.path(mqc_dir, file)
-  if (!file.exists(path)) stop("Missing file: ", path)
-  read_tsv(path, comment = "#", col_types = cols(.default = col_character()))
+  read_tsv(file.path(mqc_dir, file), comment = "#", col_types = cols(.default = col_character()))
 }
 
 clean_sample <- function(x) {
@@ -78,33 +76,35 @@ p1 <- ggplot(quality, aes(base, quality, colour = type, group = sample)) +
 
 ggsave(file.path(outdir, "fastqc_per_base_quality.png"), p1, width = 8, height = 5, dpi = 300)
 
-gc <- make_long("fastqc_per_sequence_gc_content_plot_Counts.txt", "gc", "count") %>%
+gc_raw <- read_tsv(
+  file.path(mqc_dir, "fastqc_per_sequence_gc_content_plot_Counts.txt"),
+  comment = "#",
+  col_types = cols(.default = col_character())
+)
+
+gc <- gc_raw %>%
+  pivot_longer(-Sample, names_to = "gc_header", values_to = "pair") %>%
   mutate(
-    sample = clean_sample(sample),
-    gc = parse_number(gc),
-    count = parse_number(count),
+    gc = parse_number(gc_header),
+    count = as.numeric(str_match(pair, "\\([0-9.]+, *([0-9.]+)\\)")[,2]),
+    sample = clean_sample(Sample),
     read = get_read(sample),
     type = get_type(sample)
   ) %>%
   filter(!is.na(gc), !is.na(count), read %in% c("R1", "R2"))
 
 p2 <- ggplot(gc, aes(gc, count, colour = type, group = sample)) +
-  geom_line(linewidth = 0.9, alpha = 0.8) +
+  geom_line(linewidth = 1) +
   facet_wrap(~read, scales = "free_y") +
   theme_bw(base_size = 13) +
   labs(
     title = "FastQC GC content distribution",
+    subtitle = "Distribution of GC percentage across reads",
     x = "GC content (%)",
     y = "Read count",
     colour = ""
   )
 
 ggsave(file.path(outdir, "fastqc_gc_content.png"), p2, width = 8, height = 5, dpi = 300)
-
-summary_file <- file.path(mqc_dir, "multiqc_fastqc.txt")
-if (file.exists(summary_file)) {
-  summary <- read_tsv(summary_file, show_col_types = FALSE)
-  write_csv(summary, file.path(outdir, "fastqc_summary_table.csv"))
-}
 
 message("FastQC presentation figures saved to: ", outdir)
