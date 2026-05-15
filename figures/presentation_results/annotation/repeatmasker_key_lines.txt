@@ -1,0 +1,2 @@
+bases masked:     188852 bp ( 1.12 %)
+Total interspersed repeats:           0 bp    0.00 %
