@@ -129,7 +129,7 @@ gc_illumina <- gc_df %>%
   ungroup()
 
 p3 <- ggplot(gc_illumina, aes(gc_percent, relative_abundance, colour = type, group = sample)) +
-  geom_line(linewidth = 1) +
+  geom_line(linewidth = 1.2, alpha = 0.7) +
   facet_wrap(~read) +
   theme_bw(base_size = 13) +
   labs(
